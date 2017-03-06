@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jiangxin.info/"/>
-  <updated>2017-03-03T16:55:30.000Z</updated>
+  <updated>2017-03-06T08:10:19.000Z</updated>
   <id>http://jiangxin.info/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://jiangxin.info/2017/03/03/hexo-github/"/>
     <id>http://jiangxin.info/2017/03/03/hexo-github/</id>
     <published>2017-03-03T15:47:46.000Z</published>
-    <updated>2017-03-03T16:55:30.000Z</updated>
+    <updated>2017-03-06T08:10:19.000Z</updated>
     
     <content type="html"><![CDATA[<p><code>github部署hexo备忘</code></p>
 <p>hexo官网：<a href="https://hexo.io/zh-cn/" target="_blank" rel="external">https://hexo.io/zh-cn/</a></p>
@@ -60,7 +60,20 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
 <p><a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank" rel="external">https://github.com/pinggod/hexo-theme-apollo</a></p>
-<h2 id="部署与管理"><a href="#部署与管理" class="headerlink" title="部署与管理"></a>部署与管理</h2>]]></content>
+<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><ul>
+<li><p>_config.yml：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  <span class="built_in">type</span>: git</div><div class="line">  repo: 对应仓库的SSH地址（可以在GitHub对应的仓库中复制）</div><div class="line">  branch: 分支（User Pages为master，Project Pages为gh-pages）</div></pre></td></tr></table></figure>
+</li>
+<li><p>安装插件，使Hexo部署到GitHub：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div></pre></td></tr></table></figure>
+</li>
+<li><p>执行部署：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+</li>
+<li><p>访问：username.github.io</p>
+</li>
+</ul>
+<h2 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h2>]]></content>
     
     <summary type="html">
     
