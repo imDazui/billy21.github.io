@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jiangxin.info/"/>
-  <updated>2017-03-06T09:27:24.000Z</updated>
+  <updated>2017-03-06T09:51:42.000Z</updated>
   <id>http://jiangxin.info/</id>
   
   <author>
@@ -20,10 +20,11 @@
     <link href="http://jiangxin.info/2017/03/03/hexo-github/"/>
     <id>http://jiangxin.info/2017/03/03/hexo-github/</id>
     <published>2017-03-03T15:47:46.000Z</published>
-    <updated>2017-03-06T09:27:24.000Z</updated>
+    <updated>2017-03-06T09:51:42.000Z</updated>
     
     <content type="html"><![CDATA[<p><code>github部署hexo备忘</code></p>
-<p>hexo官网：<a href="https://hexo.io/zh-cn/" target="_blank" rel="external">https://hexo.io/zh-cn/</a><br><a id="more"></a></p>
+<p>hexo官网：<a href="https://hexo.io/zh-cn/" target="_blank" rel="external">https://hexo.io/zh-cn/</a></p>
+<a id="more"></a>
 <h2 id="必要配置"><a href="#必要配置" class="headerlink" title="必要配置"></a>必要配置</h2><h4 id="GitHub-Pages"><a href="#GitHub-Pages" class="headerlink" title="GitHub Pages"></a>GitHub Pages</h4><ul>
 <li>GitHub下创建仓库命名为:username.github.io</li>
 <li>User Pages 与 Project Pages的区别:<br><a href="https://help.github.com/articles/user-organization-and-project-pages/" target="_blank" rel="external">https://help.github.com/articles/user-organization-and-project-pages/</a></li>
@@ -38,19 +39,21 @@
 <li>Generating SSH keys: <a href="https://help.github.com/articles/generating-ssh-keys/" target="_blank" rel="external">https://help.github.com/articles/generating-ssh-keys/</a></li>
 </ul>
 <h4 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h4><ul>
-<li><p><a href="https://brew.sh" target="_blank" rel="external">Homebrew</a></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/usr/bin/ruby <span class="_">-e</span> <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)</span>"</span></div></pre></td></tr></table></figure>
-</li>
-<li><p><a href="https://nodejs.org/en/" target="_blank" rel="external">node.js</a></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ brew update</div><div class="line">$ brew install node</div><div class="line">$ node -v</div></pre></td></tr></table></figure>
-</li>
-<li><p><a href="https://www.npmjs.com/" target="_blank" rel="external">npm</a></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ sudo npm install npm -g</div><div class="line">$ npm -v</div></pre></td></tr></table></figure>
-</li>
-<li><p><a href="https://hexo.io/" target="_blank" rel="external">Hexo</a></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g hexo-cli</div></pre></td></tr></table></figure>
-</li>
+<li><a href="https://brew.sh" target="_blank" rel="external">Homebrew</a></li>
 </ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/usr/bin/ruby <span class="_">-e</span> <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)</span>"</span></div></pre></td></tr></table></figure>
+<ul>
+<li><a href="https://nodejs.org/en/" target="_blank" rel="external">node.js</a></li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ brew update</div><div class="line">$ brew install node</div><div class="line">$ node -v</div></pre></td></tr></table></figure>
+<ul>
+<li><a href="https://www.npmjs.com/" target="_blank" rel="external">npm</a></li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ sudo npm install npm -g</div><div class="line">$ npm -v</div></pre></td></tr></table></figure>
+<ul>
+<li><a href="https://hexo.io/" target="_blank" rel="external">Hexo</a></li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g hexo-cli</div></pre></td></tr></table></figure>
 <h2 id="搭建方法"><a href="#搭建方法" class="headerlink" title="搭建方法"></a>搭建方法</h2><ul>
 <li>Hexo 官方文档: <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">https://hexo.io/zh-cn/docs/</a></li>
 </ul>
@@ -61,17 +64,19 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
 <p><a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank" rel="external">https://github.com/pinggod/hexo-theme-apollo</a></p>
 <h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><ul>
-<li><p>_config.yml：</p>
+<li>_config.yml：</li>
+</ul>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  <span class="built_in">type</span>: git</div><div class="line">  repo: 对应仓库的SSH地址（可以在GitHub对应的仓库中复制）</div><div class="line">  branch: 分支（User Pages为master，Project Pages为gh-pages）</div></pre></td></tr></table></figure>
-</li>
-<li><p>安装插件，使Hexo部署到GitHub：</p>
+<ul>
+<li>安装插件，使Hexo部署到GitHub：</li>
+</ul>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div></pre></td></tr></table></figure>
-</li>
-<li><p>执行部署：</p>
+<ul>
+<li>执行部署：</li>
+</ul>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-</li>
-<li><p>访问：username.github.io</p>
-</li>
+<ul>
+<li>访问：username.github.io</li>
 </ul>
 <h2 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">npm install hexo -g <span class="comment">#安装  </span></div><div class="line">npm update hexo -g <span class="comment">#升级  </span></div><div class="line">hexo init <span class="comment">#初始化</span></div></pre></td></tr></table></figure>
 <h4 id="简写"><a href="#简写" class="headerlink" title="简写"></a>简写</h4><p><code>hexo n &quot;我的博客&quot;</code> == <code>hexo new &quot;我的博客&quot;</code> #新建文章<br><code>hexo p</code> == <code>hexo publish</code><br><code>hexo g</code> == <code>hexo generate</code> #生成<br><code>hexo s</code> == <code>hexo server</code> #启动服务预览<br><code>hexo d</code> == <code>hexo deploy</code> #部署</p>
@@ -130,7 +135,8 @@
 </tbody>
 </table>
 <h4 id="设置文章摘要"><a href="#设置文章摘要" class="headerlink" title="设置文章摘要"></a>设置文章摘要</h4><p><code>以上是文章摘要 &lt;!--more--&gt; 以下是余下全文</code></p>
-<h4 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h4><p><code>hexo new page &lt;title&gt;</code><br><code>hexo new post &lt;title&gt;</code></p>
+<h4 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h4><p><code>hexo new page &lt;title&gt;</code></p>
+<p><code>hexo new post &lt;title&gt;</code></p>
 <table>
 <thead>
 <tr>
@@ -169,8 +175,10 @@
 <h2 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h2><h4 id="找不到git部署"><a href="#找不到git部署" class="headerlink" title="找不到git部署"></a>找不到git部署</h4><blockquote>
 <p>ERROR Deployer not found: git</p>
 </blockquote>
-<p>解决方法<br><code>npm install hexo-deployer-git --save</code></p>
-<h4 id="部署类型设置git"><a href="#部署类型设置git" class="headerlink" title="部署类型设置git"></a>部署类型设置git</h4><p>hexo 3.0 部署类型不再是 <code>github</code>，<code>/_config.yml</code> 中修改<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Deployment</span></div><div class="line"><span class="comment">## Docs: http://hexo.io/docs/deployment.html</span></div><div class="line">deploy:</div><div class="line">  <span class="built_in">type</span>: git</div><div class="line">  repository: git@***.github.com:***/***.github.io.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure></p>
+<p>解决方法</p>
+<p><code>npm install hexo-deployer-git --save</code></p>
+<h4 id="部署类型设置git"><a href="#部署类型设置git" class="headerlink" title="部署类型设置git"></a>部署类型设置git</h4><p>hexo 3.0 部署类型不再是 <code>github</code>，<code>/_config.yml</code> 中修改</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Deployment</span></div><div class="line"><span class="comment">## Docs: http://hexo.io/docs/deployment.html</span></div><div class="line">deploy:</div><div class="line">  <span class="built_in">type</span>: git</div><div class="line">  repository: git@***.github.com:***/***.github.io.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure>
 <h4 id="xcodebuild"><a href="#xcodebuild" class="headerlink" title="xcodebuild"></a>xcodebuild</h4><blockquote>
 <p>xcode-select: error: tool ‘xcodebuild’ requires Xcode, but active developer directory ‘/Library/Developer/CommandLineTools’ is a command line tools instance</p>
 </blockquote>
@@ -180,12 +188,16 @@
 <p>开启RSS功能</p>
 <p>编辑<code>hexo/_config.yml</code>，添加如下代码：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rss: /atom.xml <span class="comment">#rss地址  默认即可</span></div></pre></td></tr></table></figure>
-<h2 id="域名"><a href="#域名" class="headerlink" title="域名"></a>域名</h2>]]></content>
+<h2 id="域名"><a href="#域名" class="headerlink" title="域名"></a>域名</h2><blockquote>
+<p>待填充</p>
+</blockquote>
+<hr>
+]]></content>
     
     <summary type="html">
     
       &lt;p&gt;&lt;code&gt;github部署hexo备忘&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;hexo官网：&lt;a href=&quot;https://hexo.io/zh-cn/&quot;&gt;https://hexo.io/zh-cn/&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;hexo官网：&lt;a href=&quot;https://hexo.io/zh-cn/&quot;&gt;https://hexo.io/zh-cn/&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
