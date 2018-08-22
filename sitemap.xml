@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jiangxin.info/resources/index.html</loc>
+    
+    <lastmod>2018-08-20T03:52:30.997Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://jiangxin.info/0818/180818/</loc>
     
     <lastmod>2018-08-19T05:10:06.335Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://jiangxin.info/tags/index.html</loc>
     
     <lastmod>2018-08-16T09:39:51.554Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://jiangxin.info/resources/index.html</loc>
-    
-    <lastmod>2018-08-16T09:33:41.384Z</lastmod>
     
   </url>
   
