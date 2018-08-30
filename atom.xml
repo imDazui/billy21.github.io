@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jiangxin.info/"/>
-  <updated>2018-08-29T04:52:45.669Z</updated>
+  <updated>2018-08-30T10:38:43.975Z</updated>
   <id>http://jiangxin.info/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>iTerm2 + zsh + oh-my-zsh macOS上最强大的终端功能</title>
+    <link href="http://jiangxin.info/0829/iterm2-zsh-onmyzsh/"/>
+    <id>http://jiangxin.info/0829/iterm2-zsh-onmyzsh/</id>
+    <published>2018-08-29T07:55:50.000Z</published>
+    <updated>2018-08-30T10:38:43.975Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/MartinSeeler/iterm2-material-design/master/img/screen-mock-2.jpg" alt="iTerm2 + zsh + oh-my-zsh"></p><p>你在默认终端纠结吗？希望你的终端看起来像这样吗？默认终端很糟糕？</p><p>如果你想让你的终端看起来像上图。来吧，这篇会适合你。</p><a id="more"></a><h2 id="安装Homebrew"><a href="#安装Homebrew" class="headerlink" title="安装Homebrew"></a>安装Homebrew</h2><p><img src="https://www.iterm2.com/img/logo2x.jpg" alt="iTerm2"></p><p>打开终端并粘贴。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</span><br></pre></td></tr></table></figure><h2 id="下载iTerm2"><a href="#下载iTerm2" class="headerlink" title="下载iTerm2"></a>下载iTerm2</h2><p><a href="https://www.iterm2.com/features.html" target="_blank" rel="noopener">为什么我们必须将默认的macOS终端替换为iTerm2？</a></p><ol><li>转到下载页面<a href="https://www.iterm2.com/downloads.html" target="_blank" rel="noopener">https://www.iterm2.com/downloads.html</a></li><li>下载后，将文件拖放到我们的Application文件夹。</li></ol><h2 id="安装zsh"><a href="#安装zsh" class="headerlink" title="安装zsh"></a>安装zsh</h2><p>打开终端并粘贴。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install zsh</span><br></pre></td></tr></table></figure><h2 id="我们需要“oh-my-zsh”"><a href="#我们需要“oh-my-zsh”" class="headerlink" title="我们需要“oh-my-zsh”"></a>我们需要“oh-my-zsh”</h2><p><img src="https://cdn-images-1.medium.com/max/1600/1*ZxpV2BCT6h9dh0pybv4dXw.png" alt="img"></p><blockquote><p>Oh-My-Zsh is an open source, community-driven framework for managing your ZSH configuration. It comes bundled with a ton of helpful functions, helpers, plugins, themes, and a few things that make you shout…</p><p>–“Oh My ZSH!”</p></blockquote><h2 id="安装oh-my-zsh"><a href="#安装oh-my-zsh" class="headerlink" title="安装oh-my-zsh"></a>安装oh-my-zsh</h2><p>安装时，oh-my-zsh将自动用zsh替换默认终端。</p><p>打开终端并粘贴。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;</span><br></pre></td></tr></table></figure><h2 id="使用颜色装饰-iTerm2"><a href="#使用颜色装饰-iTerm2" class="headerlink" title="使用颜色装饰 iTerm2"></a>使用颜色装饰 iTerm2</h2><p><img src="https://github.com/MartinSeeler/iterm2-material-design/blob/master/img/screen-mock-1.jpg?raw=true" alt="img"></p><ol><li>打开终端并粘贴</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd Downloads</span><br><span class="line">$ curl -O https://raw.githubusercontent.com/MartinSeeler/iterm2-material-design/master/material-design-colors.itermcolors</span><br></pre></td></tr></table></figure><ol><li><p>打开已在第一部分下载的 iTerm2</p></li><li><p>转到 <em>iTerm2 &gt; Preferences &gt; Profiles &gt; Colors</em></p></li><li><p>单击右下角的 <em>Color Presets…</em></p></li><li><p>单击 <em>Import…</em></p></li><li><p>选择 <code>material-design-colors.itermcolors</code> 文件</p></li><li><p>在 <em>Load Presets…</em> 选择 <em>material-design-colors</em></p></li></ol><h2 id="管理插件"><a href="#管理插件" class="headerlink" title="管理插件"></a>管理插件</h2><p>插件维基页面：<a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins" target="_blank" rel="noopener">https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins</a></p><p>在这种情况下，我想在我的zsh上启用插件’docker’，所以我将运行此命令</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi~ / .zshrc</span><br></pre></td></tr></table></figure><p>并键入“/ plugin”（不带引号）按Enter键，键入“i”字符并插入要添加的插件。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">.</span><br><span class="line">.</span><br><span class="line"># Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)</span><br><span class="line"># Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/</span><br><span class="line"># Example format: plugins=(rails git textmate ruby lighthouse)</span><br><span class="line"># Add wisely, as too many plugins slow down shell startup.</span><br><span class="line">plugins=(</span><br><span class="line">  git</span><br><span class="line">)</span><br></pre></td></tr></table></figure><p>在这种情况下，我将添加docker插件，只需在我们的括号中添加“docker”。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">.</span><br><span class="line">.</span><br><span class="line"># Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)</span><br><span class="line"># Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/</span><br><span class="line"># Example format: plugins=(rails git textmate ruby lighthouse)</span><br><span class="line"># Add wisely, as too many plugins slow down shell startup.</span><br><span class="line">plugins=(</span><br><span class="line">  git</span><br><span class="line">  docker</span><br><span class="line">)</span><br></pre></td></tr></table></figure><p>在您满意后，按<code>Esc</code>并键入<code>：wq</code>，这意味着您保存文件并立即退出。<strong>并重启iTerm2。</strong></p><h2 id="添加别名（永久别名）"><a href="#添加别名（永久别名）" class="headerlink" title="添加别名（永久别名）"></a>添加别名（永久别名）</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">vi ~/.zshrc</span><br><span class="line">.</span><br><span class="line">.</span><br><span class="line">.</span><br><span class="line"># Example aliases</span><br><span class="line"># alias zshconfig=&quot;mate ~/.zshrc&quot;</span><br><span class="line"># alias ohmyzsh=&quot;mate ~/.oh-my-zsh&quot;</span><br><span class="line">alias dkps=&quot;docker ps&quot;</span><br><span class="line">alias dkst=&quot;docker stats&quot;</span><br><span class="line">alias dkpsa=&quot;docker ps -a&quot;</span><br><span class="line">alias dkimgs=&quot;docker images&quot;</span><br><span class="line">alias dkcpup=&quot;docker-compose up -d&quot;</span><br><span class="line">alias dkcpdown=&quot;docker-compose down&quot;</span><br><span class="line">alias dkcpstart=&quot;docker-compose start&quot;</span><br><span class="line">alias dkcpstop=&quot;docker-compose stop&quot;</span><br></pre></td></tr></table></figure><p>如果我输入 <code>dkps</code> ，它将执行 <code>docker ps</code></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/MartinSeeler/iterm2-material-design/master/img/screen-mock-2.jpg&quot; alt=&quot;iTerm2 + zsh + oh-my-zsh&quot;&gt;&lt;/p&gt;&lt;p&gt;你在默认终端纠结吗？希望你的终端看起来像这样吗？默认终端很糟糕？&lt;/p&gt;&lt;p&gt;如果你想让你的终端看起来像上图。来吧，这篇会适合你。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="iTerm2" scheme="http://jiangxin.info/tags/iTerm2/"/>
+    
+      <category term="zsh" scheme="http://jiangxin.info/tags/zsh/"/>
+    
+      <category term="oh-my-zsh" scheme="http://jiangxin.info/tags/oh-my-zsh/"/>
+    
+      <category term="macOS" scheme="http://jiangxin.info/tags/macOS/"/>
+    
+  </entry>
   
   <entry>
     <title>一顿饭钱能买到好多优质包月服务</title>
@@ -423,24 +449,6 @@
     <summary type="html">
     
       &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/0*UoMTKIrYsQPKwkwY.jpg&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;&lt;p&gt;前段时间我和一个同事进行了一次有趣的讨论。我们重新审视了我们的工作历史，并探讨了那些可以称之为丰富多彩的个人特性是如何对我们产生长期的负面影响的。之后我发现在我刚走出校园的时候确实有点混蛋（某些人也许会说我现在依然有点混蛋，不过这是题外话了）。那时候的我是一个自负，刻薄并不知道尊重其他人的人。不过我想那时候的我知道这些并反而对于这样的我感到自豪。&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>这里想捡起来就那么难？</title>
-    <link href="http://jiangxin.info/1204/131204/"/>
-    <id>http://jiangxin.info/1204/131204/</id>
-    <published>2013-12-04T07:46:44.000Z</published>
-    <updated>2018-08-06T07:53:38.880Z</updated>
-    
-    <content type="html"><![CDATA[<p>距离上次12年6月13日更新已近一年半的，间有折腾，比如推荐给<a href="http://ibigfat.com/" target="_blank" rel="noopener">老哥</a>的极简皮，自己用上了。。。</p><p>回顾这里最早一篇已经是06年11月24日，共计112篇，流水居多也有些许转载精彩。小欣慰</p><p>断了这么久为什么想捡起来再更新？</p><a id="more"></a><p>说忙实骗自己，文章列表里各种草稿可就攒不成，断片样的思路找不到关联，又豁不出去糊弄过去，就一直留着空白，结果就这样无限拖延下去了。</p><p>前几天看《<a href="http://movie.douban.com/subject/20513059/" target="_blank" rel="noopener">被偷走的那五年</a>》，此片本身没什么意义，单就记忆力的问题我要检讨下了，被遗忘的又何止五年，所以决定捡起来这里。</p><p>另淡忘这里我想微博也是原因之一，只字片语确实适合我的节字断句，可那是没想几大平台做成这么烂啊，遵着倒推流行规律，回归博客是另一个原因吧。为发在微博莫名其妙消失的那些推默哀。</p><p>轻微博多少也有小吸引，可有止步不前半死不活的征兆，依赖平台总归是不靠谱的，还是回归这里持续碎碎念不与世事为妙。</p><p><strong>不乱于心，不困于情。不畏将来，不念过往。如此，安好。</strong></p><p><img src="https://cdn-images-1.medium.com/max/1600/0*RIF5I48_R3ZpsBl3.png" alt="不乱于心，不困于情。不畏将来，不念过往。如此，安好"></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;距离上次12年6月13日更新已近一年半的，间有折腾，比如推荐给&lt;a href=&quot;http://ibigfat.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;老哥&lt;/a&gt;的极简皮，自己用上了。。。&lt;/p&gt;&lt;p&gt;回顾这里最早一篇已经是06年11月24日，共计112篇，流水居多也有些许转载精彩。小欣慰&lt;/p&gt;&lt;p&gt;断了这么久为什么想捡起来再更新？&lt;/p&gt;
     
     </summary>
     
