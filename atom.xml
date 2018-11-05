@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jiangxin.info/"/>
-  <updated>2018-10-31T09:18:14.541Z</updated>
+  <updated>2018-11-05T01:49:39.007Z</updated>
   <id>http://jiangxin.info/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何体验 Apple News？</title>
+    <link href="http://jiangxin.info/1104/Apple-News/"/>
+    <id>http://jiangxin.info/1104/Apple-News/</id>
+    <published>2018-11-04T02:04:50.000Z</published>
+    <updated>2018-11-05T01:49:39.007Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://pgsonba2x.bkt.clouddn.com/181104/apple-news-1140x600.jpg" alt="Apple News"></p><p>Apple News 是苹果在 iOS 和 macOS （10.14及之后的版本）设备上自带的新闻软件。目前仅在美国、英国和澳大利亚运营。它不生产内容，只搭建平台，方便各大媒体和内容创作者在上面提供内容。可以将其理解为更加开放些的微信公众平台或者今日头条。但是就目前来看，美区基本都是传统媒体和影响力较大的媒体接入。Apple News 的优势在于因为内容发布在同一平台，内容格式相对一致，用户体验极好。</p><a id="more"></a><p><img src="http://pgsonba2x.bkt.clouddn.com/181104/digital_immigrant_14_Apple-News-Screenshots.png" alt="Apple-News-Screenshots">￼</p><p>上图是 Apple News iPhone版本的展示。<br>只有三栏, Today 一栏，混合了头条新闻，热门，个性化推荐，视频专区等等。也即是<strong>智能推荐</strong>和<strong>热门内容</strong>的合集<br>第二栏 Spotlight 是<strong>编辑推荐</strong>的内容，人工推荐在聚合类新闻软件中并不多见，典型的苹果作风。<br>第三栏 Browse 是<strong>个人关注</strong>，可以是各大内容提供方，也可以是某个话题。</p><h2 id="破解原理"><a href="#破解原理" class="headerlink" title="破解原理"></a>破解原理</h2><p>Apple News 虽然在很多国家地区未提供服务，但设备上若使用美区 Apple ID 登陆，或者设置中地区更改为美国，Apple News 依旧能使用。特殊的地方在于，Apple News 针对中国地区做了特殊的自我限制，iOS 设备会检测是不是在使用中国运营商 🤦‍♂️，这应该是已知的苹果对自己服务作出的最严格的地域限制。</p><p>在iOS 设备使用 Apple News，需要：</p><ol><li>iTunes中使用美区Apple ID；</li><li>设置中地区切换为美国；</li><li>IP 地址不是中国的；</li><li>使用非中国运营商/开启飞行模式。</li></ol><p>在 macOS 设备上使用 Apple News 需要：</p><ol><li>设置中地区切换为美国；</li><li>网络 IP 地址是美国/英国/澳大利亚等运营区域。</li></ol><p>如果你觉得麻烦，欢迎使用 <a href="https://itunes.apple.com/us/app/google-news/id459182288?mt=8" target="_blank" rel="noopener">Google News</a> 或者 <a href="https://itunes.apple.com/us/app/feedly-smart-news-reader/id396069556?mt=8" target="_blank" rel="noopener">Feedly </a>， 内容源没差，就是丑了点，又不是不能用 🌚。</p><h2 id="iPhone-iPad-设备上使用-Apple-News"><a href="#iPhone-iPad-设备上使用-Apple-News" class="headerlink" title="iPhone/iPad 设备上使用 Apple News"></a>iPhone/iPad 设备上使用 Apple News</h2><h3 id="第一步：在主屏上显示-Apple-News"><a href="#第一步：在主屏上显示-Apple-News" class="headerlink" title="第一步：在主屏上显示 Apple News"></a>第一步：在主屏上显示 Apple News</h3><ul><li>iTunes &amp; App Store 账号更换为美区</li><li>设置- 通用- 语言/地区 中，切换地区为美国</li></ul><p>这里需要介绍一下 Apple ID，iOS 上登陆的 Apple ID (苹果账号) 一般用于两种服务。一是 iCloud 文件及系统安全，二是用于 iTunes &amp; App Store等购买服务。</p><p>在 iOS 的设置中 退出 iTunes &amp; App Store 的登陆，换成 美区 Apple ID，Apple News, Apple TV 等软件就会出现在设备上了。</p><h3 id="第二步：正常使用-Apple-News"><a href="#第二步：正常使用-Apple-News" class="headerlink" title="第二步：正常使用 Apple News"></a>第二步：正常使用 Apple News</h3><p>完成第一步，你在几乎所有国家都可以正常使用 Apple News 了。仅仅中国特殊，不但检测 IP地址，若发现 MCC (<a href="https://en.wikipedia.org/wiki/Mobile_country_code" target="_blank" rel="noopener">移动设备国家代码</a>) 是中国，则提示无法在地区使用。</p><p>在 iPhone 上需开启飞行模式。打开 Wi-Fi，使用 VPN 或者<a href="https://shadowsocks.org/en/index.html" target="_blank" rel="noopener">SS类软件</a>的全局代理。iOS 上，Apple News 对代理的 IP 没有特别限制，只要不是中国的 IP地址即可。<strong>但必须开启飞行模式这一点，等于屏蔽移动网络，代价很大且不具有普适性。</strong></p><p>若在没有插 SIM卡的 iPad 上，使用 VPN 或者SS类软件的全局代理即可。常在Wi-Fi网络下扔着的 iPad 更适合用来阅读新闻等。</p><h2 id="Mac-设备上使用-Apple-News"><a href="#Mac-设备上使用-Apple-News" class="headerlink" title="Mac 设备上使用 Apple News"></a>Mac 设备上使用 Apple News</h2><h3 id="第一步：在主屏上显示-Apple-News-1"><a href="#第一步：在主屏上显示-Apple-News-1" class="headerlink" title="第一步：在主屏上显示 Apple News"></a>第一步：在主屏上显示 Apple News</h3><p><img src="http://pgsonba2x.bkt.clouddn.com/181104/digital_immigrant_14_google-news-screenshots02.png" alt="google-news-screenshots02">￼</p><p>macOS 需升级到10.14 macOS Mojave。MacOS 上仅需要在 系统设置-语言与地区 中将地区更改为 美国，Apple News 就会出现在应用页面。若仍未出现，可以在 应用程序 中查看到，按住拖到 dock 栏方便使用。</p><p><img src="http://pgsonba2x.bkt.clouddn.com/181104/digital_immigrant_14_google-news-screenshots03.png" alt="google-news-screenshots03">￼</p><h3 id="第二步：正常使用-Apple-News-1"><a href="#第二步：正常使用-Apple-News-1" class="headerlink" title="第二步：正常使用 Apple News"></a>第二步：正常使用 Apple News</h3><p>点开 Apple News， 很可能会提示该地区不支持。使用 VPN 或者<a href="https://shadowsocks.org/en/index.html" target="_blank" rel="noopener">SS类软件</a>的全局代理。更换代理后，双击dock 上的 Apple News 选择关闭，然后打开即可。若经常使用全局代理不方便，也可以考虑使用 Proxifier 针对电脑上的每个软件分别设置代理策略。</p><p>注意，与iOS不同，macOS 上对 IP 地址还是有要求的，若使用加拿大或者其他非 Apple News 运营地区的 IP地址，仍会显示为该地区不支持。</p><h2 id="不想那么折腾怎么办"><a href="#不想那么折腾怎么办" class="headerlink" title="不想那么折腾怎么办"></a>不想那么折腾怎么办</h2><p>总结来看，iPhone 上使用的缺点是必须要禁用移动网络；iPad 使用的缺点是不方便到处携带；Mac 上配置成本也不低。Google News 在今年2018年迎来一次大改版，在使用和内容上，毫不逊色 Apple News，只是 <a href="https://itunes.apple.com/us/app/google-news/id459182288?mt=8" target="_blank" rel="noopener">Google News</a> 会直接打开原网页链接，字体大小排版各具特色，没有 Apple News 统一发布看起来讨人喜欢。</p><h2 id="Apple-news-与-Google-News-对比"><a href="#Apple-news-与-Google-News-对比" class="headerlink" title="Apple news 与 Google News 对比"></a>Apple news 与 Google News 对比</h2><p><img src="http://pgsonba2x.bkt.clouddn.com/181104/digital_immigrant_14_google-news-screenshots.png" alt="google-news-screenshots">￼</p><table><thead><tr><th>App</th><th>Tab 1</th><th>Tab 2</th><th>Tab 3</th><th>Tab 4</th></tr></thead><tbody><tr><td>Apple News</td><td>智能推荐+热门内容</td><td>编辑推荐</td><td>自选话题/内容提供方</td><td>无</td></tr><tr><td>Google News</td><td>智能推荐</td><td>热门内容</td><td>自选话题/内容提供方</td><td>浏览话题/内容提供方</td></tr></tbody></table><p>由上可见，Google News 没有人工的「编辑推荐」，Apple News 因为对内容提供方门槛较高，比Google News 的更少些，除此之外，在内容上没有差异。</p><h2 id="在-Apple-News-Google-News-上看什么？"><a href="#在-Apple-News-Google-News-上看什么？" class="headerlink" title="在 Apple News/ Google News 上看什么？"></a>在 Apple News/ Google News 上看什么？</h2><p>这个展开讲内容就会超级多了。欢迎参考本博客的另外几篇文章，看欧美电视电影版图，虽然偏向于电视电影，但是也可以帮你更好了解各个媒体的立场。同时还有获取资讯的 APP 也有一些推荐。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://pgsonba2x.bkt.clouddn.com/181104/apple-news-1140x600.jpg&quot; alt=&quot;Apple News&quot;&gt;&lt;/p&gt;&lt;p&gt;Apple News 是苹果在 iOS 和 macOS （10.14及之后的版本）设备上自带的新闻软件。目前仅在美国、英国和澳大利亚运营。它不生产内容，只搭建平台，方便各大媒体和内容创作者在上面提供内容。可以将其理解为更加开放些的微信公众平台或者今日头条。但是就目前来看，美区基本都是传统媒体和影响力较大的媒体接入。Apple News 的优势在于因为内容发布在同一平台，内容格式相对一致，用户体验极好。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Apple News" scheme="http://jiangxin.info/tags/Apple-News/"/>
+    
+      <category term="Google News" scheme="http://jiangxin.info/tags/Google-News/"/>
+    
+  </entry>
   
   <entry>
     <title>能帮你省近 200 元的 「Amazon Prime + 腾讯视频 VIP」 联合套餐，到底值不值？</title>
@@ -450,24 +472,6 @@
     <summary type="html">
     
       &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*wAGbn3cxamozWNEFY_aYMA.jpeg&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;&lt;p&gt;拼啦App — 发现平行视界之美&lt;/p&gt;&lt;p&gt;2015年12月2日 拼啦团队完成1.4.1版的封装，不夸张的说真的是长舒一口气，因为一路走来这个不被看好的过程确实有太多值得缅怀。&lt;/p&gt;&lt;p&gt;也就是这样一款不停被用户抱怨玩不懂，被机构吐槽看不懂的东西，从5月25日提审初版至今走过了17个版本更新后，终于宣告第一节点结束，正式启动了2.0版的开发。&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>洗洗睡吧，别那犯贱了。。。</title>
-    <link href="http://jiangxin.info/1020/141020/"/>
-    <id>http://jiangxin.info/1020/141020/</id>
-    <published>2014-10-20T07:55:50.000Z</published>
-    <updated>2018-08-06T08:22:27.728Z</updated>
-    
-    <content type="html"><![CDATA[<p>手里攥着个破手机，开始给某个对你似待见不待见的人发短信。 总是以一件小事开头，希望能引起一些话题。 斟酌纠结了五分钟，短信发出去了， 然后就开始盼星星盼月亮，盼着人能鸟你。</p><p>如果很快就回了短信， 你就高兴了，就觉得仿佛人家待见你了， 然后就开始纠结回信， 什么态度不能太热情，容易被看出来， 什么态度不能太冷淡，怕人家误会， 总之回的跟个折翼的天使似的柔肠百转， 什么这个地方不能用句号， 那个地方得用问号，得方便留下接着回信的话茬。 然后又是继续一轮纠结的等待。</p><a id="more"></a><p>如果人没回，这事就深了。 刚开始吧，开始自我安慰， 什么人家没看见，什么手机没开机。 然后，过上几个小时，发现再不靠谱也得看见了， 就觉得是不是人根本就懒得搭理你， 于是就怨怼了，就惆怅了， 一会儿翻翻发件箱，看看是不是那句话说的不得体， 一会儿想想事，看看是不是得罪丫了， 总之这叫个烦躁啊，这叫个哀怨啊。 心中骂了千遍，却还在找理由， 觉得忙啊，手机没钱了，感觉你比丫还给丫说话</p><p>最大的悲剧是什么？ 人回了，寥寥几个字，你丫还那美， 人理我了，人理我了。 人那是敷衍你呢，还真把自己当根葱了。 打开别人的收件箱，一整面一整面的短信， 每个都是丫发的，每个不刷屏都不算玩。 纠结了？心中不爽了？ 自找，谁让你翻别人收件箱。</p><p>回你个 啊 嗯 哦 你就高兴了， 那是你真的贱的没边了。 看过一篇文章，回这几个字，除了敷衍还是敷衍。 说明什么？人压根就没拿正眼瞧过你， 人都觉得你占用人宝贵的生命了。 还自我陶醉呢？ 你凤姐啊？</p><p>行了，人都懒得搭理你了， 你丫还凑那么近干嘛？找刺激啊？ 人丫的不待见你，你还那一个劲的贴着， 不是自己贱是什么？ 你自己想想，丫配让你这么贱，让你这么疯狂吗？ 别活到最后，贱的是自己，还一无所获。 不回就不回，别老那纠结，丫也不会陪你纠结。 既然如此，豁达一点，懒得搭理丫， 洗洗睡吧，别那犯贱了。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;手里攥着个破手机，开始给某个对你似待见不待见的人发短信。 总是以一件小事开头，希望能引起一些话题。 斟酌纠结了五分钟，短信发出去了， 然后就开始盼星星盼月亮，盼着人能鸟你。&lt;/p&gt;&lt;p&gt;如果很快就回了短信， 你就高兴了，就觉得仿佛人家待见你了， 然后就开始纠结回信， 什么态度不能太热情，容易被看出来， 什么态度不能太冷淡，怕人家误会， 总之回的跟个折翼的天使似的柔肠百转， 什么这个地方不能用句号， 那个地方得用问号，得方便留下接着回信的话茬。 然后又是继续一轮纠结的等待。&lt;/p&gt;
     
     </summary>
     
