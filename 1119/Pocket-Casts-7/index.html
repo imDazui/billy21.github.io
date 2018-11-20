@@ -1,0 +1,317 @@
+<!DOCTYPE html><html class="theme-next muse" lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"><meta name="theme-color" content="#222"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link href="//fonts.loli.net/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css"><link href="//cdn.bootcss.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" type="text/css"><link href="/css/main.css?v=6.3.0" rel="stylesheet" type="text/css"><link rel="apple-touch-icon" sizes="180x180" href="/images/GitHub-Mark-120px-plus.png?v=6.3.0"><link rel="icon" type="image/png" sizes="32x32" href="/images/GitHub-Mark-64px.png?v=6.3.0"><link rel="icon" type="image/png" sizes="16x16" href="/images/GitHub-Mark-32px.png?v=6.3.0"><link rel="mask-icon" href="/images/github.svg?v=6.3.0" color="#222"><script type="text/javascript" id="hexo.configurations">var NexT=window.NexT||{},CONFIG={root:"/",scheme:"Muse",version:"6.3.0",sidebar:{position:"left",display:"post",offset:12,b2t:!1,scrollpercent:!0,onmobile:!1},fancybox:!1,fastclick:!1,lazyload:!1,tabs:!0,motion:{enable:!1,async:!1,transition:{post_block:"fadeIn",post_header:"slideDownIn",post_body:"slideDownIn",coll_header:"slideLeftIn",sidebar:"slideUpIn"}},algolia:{applicationID:"",apiKey:"",indexName:"",hits:{per_page:10},labels:{input_placeholder:"Search for Posts",hits_empty:"We didn't find any results for the search: ${query}",hits_stats:"${hits} results found in ${time} ms"}}}</script><meta name="description" content="知名的全平台播客应用 Pocket Casts 前不久为我们带来了 iOS 平台上的 7.0 版本，拥有 6.0 版本的用户可以免费升级，同时 Android 平台的 7.0 版本已在 Google Play 开启公测。本次大版本升级的 Pocket Casts，不仅优化了已有的旧功能，还新增了很多全新的功能，下面我们就来好好看看吧。"><meta name="keywords" content="Pocket Casts"><meta property="og:type" content="article"><meta property="og:title" content="Pocket Casts 7 ：支持 Siri 捷径、节目搜索、同步收听进度等"><meta property="og:url" content="http://jiangxin.info/1119/Pocket-Casts-7/index.html"><meta property="og:site_name" content="JiangXin.info"><meta property="og:description" content="知名的全平台播客应用 Pocket Casts 前不久为我们带来了 iOS 平台上的 7.0 版本，拥有 6.0 版本的用户可以免费升级，同时 Android 平台的 7.0 版本已在 Google Play 开启公测。本次大版本升级的 Pocket Casts，不仅优化了已有的旧功能，还新增了很多全新的功能，下面我们就来好好看看吧。"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://i.loli.net/2018/11/20/5bf386c945fd3.png"><meta property="og:image" content="https://i.loli.net/2018/11/20/5bf387490da92.jpg"><meta property="og:image" content="https://i.loli.net/2018/11/20/5bf3874c8522f.png"><meta property="og:image" content="https://i.loli.net/2018/11/20/5bf38749bb8e5.jpg"><meta property="og:image" content="https://i.loli.net/2018/11/20/5bf387532e152.png"><meta property="og:image" content="https://i.loli.net/2018/11/20/5bf3874752caf.png"><meta property="og:image" content="https://i.loli.net/2018/11/20/5bf3874c830dc.jpg"><meta property="og:image" content="https://i.loli.net/2018/11/20/5bf387496518a.jpg"><meta property="og:image" content="https://i.loli.net/2018/11/20/5bf3873f5616d.png"><meta property="og:image" content="https://i.loli.net/2018/11/20/5bf3874736914.jpg"><meta property="og:image" content="https://i.loli.net/2018/11/20/5bf3878570fd9.png"><meta property="og:image" content="https://i.loli.net/2018/11/20/5bf3878385391.png"><meta property="og:updated_time" content="2018-11-20T04:10:15.564Z"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Pocket Casts 7 ：支持 Siri 捷径、节目搜索、同步收听进度等"><meta name="twitter:description" content="知名的全平台播客应用 Pocket Casts 前不久为我们带来了 iOS 平台上的 7.0 版本，拥有 6.0 版本的用户可以免费升级，同时 Android 平台的 7.0 版本已在 Google Play 开启公测。本次大版本升级的 Pocket Casts，不仅优化了已有的旧功能，还新增了很多全新的功能，下面我们就来好好看看吧。"><meta name="twitter:image" content="https://i.loli.net/2018/11/20/5bf386c945fd3.png"><link rel="alternate" href="/atom.xml" title="JiangXin.info" type="application/atom+xml"><link rel="canonical" href="http://jiangxin.info/1119/Pocket-Casts-7/"><script type="text/javascript" id="page.configurations">CONFIG.page={sidebar:""}</script><title>Pocket Casts 7 ：支持 Siri 捷径、节目搜索、同步收听进度等 | JiangXin.info</title><script async src="https://www.googletagmanager.com/gtag/js?id=UA-68770355-2"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-68770355-2")</script><script type="text/javascript">var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?6dabe9e5a3bc294d03067652f248b2e7";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script><noscript><style type="text/css">.sidebar-inner,.use-motion .brand,.use-motion .collection-title,.use-motion .comments,.use-motion .menu-item,.use-motion .motion-element,.use-motion .pagination,.use-motion .post-block,.use-motion .post-body,.use-motion .post-header{opacity:initial}.use-motion .logo,.use-motion .site-subtitle,.use-motion .site-title{opacity:initial;top:initial}.logo-line-after i{right:initial}</style></noscript></head><body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN"><div class="mask mt"></div><div class="mask mb"></div><div class="mask mv ml"></div><div class="mask mv mr"></div><div class="mask mv ml2"></div><div class="mask mv mr2"></div><div class="container sidebar-position-left page-post-detail"><div class="headband"></div><header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="header-inner"><div class="site-brand-wrapper"><div class="site-meta"><h1 class="site-subtitle" itemprop="description">不乱于心，不困于情。不畏将来，不念过往。如此，安好。</h1><div class="custom-logo-site-title"><a href="/" class="brand" rel="start"><span class="logo-line-before"><i></i></span> <span class="site-title">JiangXin.info</span> <span class="logo-line-after"><i></i></span></a></div></div><div class="site-nav-toggle"><button aria-label="切换导航栏"><span class="btn-bar"></span> <span class="btn-bar"></span> <span class="btn-bar"></span></button></div></div><nav class="site-nav"><ul id="menu" class="menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> 首页</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> 标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> 分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> 归档</a></li><li class="menu-item menu-item-resources"><a href="/resources/" rel="section"><i class="menu-item-icon fa fa-fw fa-download"></i> 资源</a></li><li class="menu-item menu-item-search"><a href="javascript:;" class="popup-trigger"><i class="menu-item-icon fa fa-search fa-fw"></i> 搜索</a></li></ul><div class="site-search"><div class="popup search-popup local-search-popup"><div class="local-search-header clearfix"><span class="search-icon"><i class="fa fa-search"></i> </span><span class="popup-btn-close"><i class="fa fa-times-circle"></i></span><div class="local-search-input-wrapper"><input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input"></div></div><div id="local-search-result"></div></div></div></nav></div></header><main id="main" class="main"><div class="main-inner"><div class="content-wrap"><div id="content" class="content"><div id="posts" class="posts-expand"><article class="post post-type-normal" itemscope itemtype="http://schema.org/Article"><div class="post-block"><link itemprop="mainEntityOfPage" href="http://jiangxin.info/1119/Pocket-Casts-7/"><span hidden itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="name" content="Dazui"><meta itemprop="description" content="组织结构是生产力。诚然。。。"><meta itemprop="image" content="/images/avatar.jpg"></span><span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><meta itemprop="name" content="JiangXin.info"></span><header class="post-header"><h2 class="post-title" itemprop="name headline">Pocket Casts 7 ：支持 Siri 捷径、节目搜索、同步收听进度等</h2><div class="post-meta"><span class="post-time"><span class="post-meta-item-icon"><i class="fa fa-calendar-o"></i> </span><span class="post-meta-item-text">发表于</span> <time title="创建时间：2018-11-19 16:40:50" itemprop="dateCreated datePublished" datetime="2018-11-19T16:40:50+08:00">2018-11-19</time> <span class="post-meta-divider">|</span> <span class="post-meta-item-icon"><i class="fa fa-calendar-check-o"></i> </span><span class="post-meta-item-text">更新于</span> <time title="修改时间：2018-11-20 12:10:15" itemprop="dateModified" datetime="2018-11-20T12:10:15+08:00">2018-11-20</time> </span><span class="post-meta-divider">|</span> <span class="post-meta-item-icon"><i class="fa fa-file-word-o"></i> </span><span class="post-meta-item-text">本文字数：</span> <span title="本文字数">2.8k</span> <span class="post-meta-divider">|</span> <span class="post-meta-item-icon"><i class="fa fa-clock-o"></i> </span><span class="post-meta-item-text">阅读时长 &asymp;</span> <span title="阅读时长">3 分钟</span></div></header><div class="post-body" itemprop="articleBody"><div class="post-body-ads" style="margin:0 20px 20px 0;float:left"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="text-align:center" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-6384335008862617" data-ad-slot="3970375031"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script></div><p><img src="https://i.loli.net/2018/11/20/5bf386c945fd3.png" alt="Pocket Casts 7"></p><p>知名的全平台播客应用 Pocket Casts 前不久为我们带来了 iOS 平台上的 7.0 版本，拥有 6.0 版本的用户可以免费升级，同时 Android 平台的 7.0 版本已在 Google Play 开启公测。本次大版本升级的 Pocket Casts，不仅优化了已有的旧功能，还新增了很多全新的功能，下面我们就来好好看看吧。</p><a id="more"></a><h2 id="自由聆听和探索播客"><a href="#自由聆听和探索播客" class="headerlink" title="自由聆听和探索播客"></a>自由聆听和探索播客</h2><p>在 Pocket Casts 7.0 中终于加上了在 2015 年就讨论过的<strong>「在不需要订阅某个播客的情况下，即可播放那个播客中的节目」</strong>的功能。如果你经常喜欢用播客客户端探索播客节目的话，这个功能一定会吸引到你。</p><p><img src="https://i.loli.net/2018/11/20/5bf387490da92.jpg" alt="无订阅收听节目"></p><p>我在去年换回 iOS 的原生播客应用，主要原因有 2 点：一点就是内置的播客客户端自带的浏览选项卡，能够在听完所有订阅的播客以后找一找新的节目；另外一点就是收听节目不需要订阅播客。在探索节目的时候，一般我看大部分播客的节目介绍都会感兴趣，接着就会想进一步了解这档播客，想了解的内容包括：</p><ol><li>所涉及到的内容我是否能听的懂绝大多数；</li><li>本身播客的节奏是怎样的，是需要仔细听还是当作一种白噪声即可；</li><li>播客的音质和主播的声线。</li></ol><p>这上面的内容都只有收听了具体的节目才能知道，一般的播客客户端只有订阅那个播客才能收听里面的节目，在探索节目的时候，需要在返回订阅才能收听到，如果感觉到不适合自己还需要手动解除订阅。现在除了 iOS 内置的播客客户端可以做到以外，Pocket Casts 也可以做到了，无论是试听，还是只是想听有你喜欢的嘉宾的某一期节目，这个功能都能很好地帮助到你。</p><p>此外，Pocket Casts 7 还改进了 Discovery 标签页内的内容，Discovery 中的内容将会根据下方选择的区域进行推荐，而且更新的频率相较旧版本也会更快。当然针对性的个性化推荐也自然少不了。</p><p><img src="https://i.loli.net/2018/11/20/5bf3874c8522f.png" alt="探索和分类会根据地区选择而改变"></p><p>最后，你现在可以将 Playback Effect 回放效果在在线收听的时候使用了，而不用将节目先下载下来，你可以通过这一功能随时地进行变速、裁剪静音部分或者增大播客的音量。对于 Airplay 2 的支持，还能够让 Pocket Casts 在支持 Airplay 2 的播放设备上获得优良的播放效果。</p><p><img src="https://i.loli.net/2018/11/20/5bf38749bb8e5.jpg" alt="播放效果"></p><h2 id="搜索特定的剧集"><a href="#搜索特定的剧集" class="headerlink" title="搜索特定的剧集"></a>搜索特定的剧集</h2><p>播客虽然一集一集的听听好像没什么，但是当你想回头去找过去听过的旧节目，对着长长的播客列表，一个个往下翻的痛苦感，相信找过特定节目的人都深有体会。这也是为什么我后来换回 iOS 原生播客应用的第 3 个原因：内置的播客客户端支持通过关键词进行搜索那些已经订阅的播客中的节目。</p><p>Pocket Casts 7 现在也支持搜索节目了，不过相对麻烦些：你需要进入某个播客，然后再在那个播客的节目列表里面输入关键词进行搜索；但是好处自然也有，你可以将搜索范围限定在某个你没有订阅的播客中的节目。</p><p><img src="https://i.loli.net/2018/11/20/5bf387532e152.png" alt="搜索功能对比"></p><p>同步待播放列表和收听进度</p><p>如果所作为一款全平台的播客客户端，只能同步订阅列表而不能同步收听进度，说实话这个体验真的太差了，但是这就是我在用的 iOS 系统播客应用的体验：每次在移动设备上听到一半，想打开电脑上的 iTunes 继续听还要先找到那个节目，再拖动进度条到我刚刚听的地方，电脑上听完以后手机上的进度也不会自动同步。</p><p>不过这在 Pocket Casts 7 发布以后彻底改变了，应用不仅支持同步完整的待播放列表，也支持同步节目的播放位置。只需要在一个地方设置一次 Up Next，其它设备都会自动进行同步，想听的时候直接打开听就好了。无论是在咖啡馆，还是办公室，或是通勤的路上你都可以随时享受你的播客。</p><p><img src="https://i.loli.net/2018/11/20/5bf3874752caf.png" alt="不同平台支持同步收听进度"></p><p>收听历史</p><p>就我个人而言，订阅了那么多播客，肯定是没时间仔细地全部听完。所以基本上我会建立一个名叫 White Noise（白噪声） 的列表，把新节目丢几个不重要的进去，做别的东西的时候能直接听。</p><p>但是，哪怕是当白噪声，有些部分还是需要注意到的：可能是重要的信息，可能是这个新播客听起来不错的部分，也可能是一些论据。但是一般手上忙的事情不可能马上放下，做完手上的事情再去听基本上这个节目已经到了下一个环节。而隔了段时间想起来上次好像某个节目里面有个不错的东西需要再注意下，十有八九会忘记是听的哪个节目了。Pocket Casts 7 的收听历史这个功能就非常棒了，能够根据时间点看到哪天听了哪些节目。</p><p><img src="https://i.loli.net/2018/11/20/5bf3874c830dc.jpg" alt="播放历史"></p><p>Siri 捷径</p><p>Pocket Casts 也终于支持了 Siri 捷径，除去恢复播放、暂停、播放接下来的节目这些基本的控制播放选项，应用还支持播放建议的节目、当前节目的上 / 下一章节、设置一个 5 分钟的睡眠倒计时、捷径到一个特定的播客以及捷径到一个特定的过滤器等功能。</p><p><img src="https://i.loli.net/2018/11/20/5bf387496518a.jpg" alt="Siri 捷径"></p><p>Siri 捷径不仅能作为捷径应用中动作的一个步骤，还会学习你长期使用的习惯，在下拉的搜索界面和锁屏界面给出相关建议。</p><h2 id="其它改进"><a href="#其它改进" class="headerlink" title="其它改进"></a>其它改进</h2><p>除去上面讲述的改进，Pocket Casts 7 还有如下的优化：</p><h3 id="Apple-Watch-上的-Pocket-Casts"><a href="#Apple-Watch-上的-Pocket-Casts" class="headerlink" title="Apple Watch 上的 Pocket Casts"></a>Apple Watch 上的 Pocket Casts</h3><p>Pocket Casts 的 watchOS 版本也获得了大幅度的提升，不仅能够在手表上控制手机上的播放列表，还能控制手机上的音量以及播放效果。不过 Pocket Casts 的 watchOS 版本暂时不支持下载节目到手表上进行播放，相信这个功能也已经快到来了。</p><p><img src="https://i.loli.net/2018/11/20/5bf3873f5616d.png" alt="Pocket Casts for watchOS"></p><h3 id="归档节目"><a href="#归档节目" class="headerlink" title="归档节目"></a>归档节目</h3><p>Pocket Casts 7 中还提供了将节目归档的功能，归档并不会影响节目的播放状态。归档节目的功能适合于某些日常会频繁更新的播客，比如 BBC News 和 CNN News，但是这些节目出现在未播列表会显得非常乱，而且说实话也不一定会每次都听的完。因此将它们归档是个很不错的选择，而且也不会被影响到节目的播放状态，想听的时候还可以回头接着听。</p><h3 id="界面改进"><a href="#界面改进" class="headerlink" title="界面改进"></a>界面改进</h3><p>Pocket Casts 7 中的将播放界面中的二级菜单去掉了，将所有的功能放在播放按钮的底部，方便用户快速使用。</p><p><img src="https://i.loli.net/2018/11/20/5bf3874736914.jpg" alt="全新的播放界面"></p><p>重新设计了亮色和暗色主题；还提供了全黑主题，适合用在 OLED 设备上。</p><p><img src="https://i.loli.net/2018/11/20/5bf3878570fd9.png" alt="3 种主题模式"></p><h3 id="支持计数"><a href="#支持计数" class="headerlink" title="支持计数"></a>支持计数</h3><p>Pocket Casts 7 支持季数和集数的计数，如果当前的播客节目支持则会进行显示。</p><p><img src="https://i.loli.net/2018/11/20/5bf3878385391.png" alt="节目更新日期之前的计数"></p><p>最后还有一个小彩蛋，这次 Pocket Casts 7 的 iOS 版本的发布说明也非常有意思，采用了导演文字版的分镜脚本的形式，呈现了全新的 7.0 版本推出<del>如果有</del>的一个视频广告。而且通过分镜注释 (Posh British accent) 和后面故意写出的 「The chamfered aluminium（带有倒角的金属铝)」 可以很果断地推断出，朗读这段文字的绝对会是 Jony lve 爵士，不过可惜的是超过预算了，看不到就是了，应该是预算请不动爵士吧 😂。</p><p>目前 Pocket Casts 7 国区售价 25 元，<a href="https://playbeta.pocketcasts.com/" target="_blank" rel="noopener">网页版</a>一次性收款 9 刀，不过目前 macOS 和 Windows 2 大<a href="https://playbeta.pocketcasts.com/web/settings/apps" target="_blank" rel="noopener">桌面平台</a>由于处于 Beta 测试状态所以暂时免费。</p></div><div><div style="padding:10px 0;margin:20px auto;width:90%;text-align:center"><div>您的支持将鼓励我继续坚持技术分享！</div><button id="rewardButton" disable="enable" onclick='var qr=document.getElementById("QR");"none"===qr.style.display?qr.style.display="block":qr.style.display="none"'><span>打赏</span></button><div id="QR" style="display:none"><div id="wechat" style="display:inline-block"><img id="wechat_qr" src="/images/wechatpay.jpg" alt="Dazui 微信支付"><p>微信支付</p></div><div id="alipay" style="display:inline-block"><img id="alipay_qr" src="/images/alipay.jpg" alt="Dazui 支付宝"><p>支付宝</p></div></div></div></div><div><ul class="post-copyright"><li class="post-copyright-author"><strong>本文作者： </strong>Dazui</li><li class="post-copyright-link"><strong>本文链接：</strong> <a href="http://jiangxin.info/1119/Pocket-Casts-7/" title="Pocket Casts 7 ：支持 Siri 捷径、节目搜索、同步收听进度等">http://jiangxin.info/1119/Pocket-Casts-7/</a></li><li class="post-copyright-license"><strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！</li></ul></div><style>.post-fot-ad{margin:40px auto 0;text-align:center}</style><div class="post-fot-ad"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block;text-align:center" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-6384335008862617" data-ad-slot="5478954325"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script></div><footer class="post-footer"><div class="post-tags"><a href="/tags/Pocket-Casts/" rel="tag"># Pocket Casts</a></div><div class="post-nav"><div class="post-nav-next post-nav-item"><a href="/1104/Apple-News/" rel="next" title="如何体验 Apple News？"><i class="fa fa-chevron-left"></i> 如何体验 Apple News？</a></div><span class="post-nav-divider"></span><div class="post-nav-prev post-nav-item"></div></div></footer></div></article></div></div><div class="comments" id="comments"><div id="disqus_thread"><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div></div></div><div class="sidebar-toggle"><div class="sidebar-toggle-line-wrap"><span class="sidebar-toggle-line sidebar-toggle-line-first"></span> <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span> <span class="sidebar-toggle-line sidebar-toggle-line-last"></span></div></div><aside id="sidebar" class="sidebar"><div class="sidebar-inner"><ul class="sidebar-nav motion-element"><li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">文章目录</li><li class="sidebar-nav-overview" data-target="site-overview-wrap">站点概览</li></ul><section class="site-overview-wrap sidebar-panel"><div class="site-overview"><div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person"><img class="site-author-image" itemprop="image" src="/images/avatar.jpg" alt="Dazui"><p class="site-author-name" itemprop="name">Dazui</p><p class="site-description motion-element" itemprop="description">组织结构是生产力。诚然。。。</p></div><nav class="site-state motion-element"><div class="site-state-item site-state-posts"><a href="/archives/"><span class="site-state-item-count">28</span> <span class="site-state-item-name">日志</span></a></div><div class="site-state-item site-state-categories"><a href="/categories/index.html"><span class="site-state-item-count">1</span> <span class="site-state-item-name">分类</span></a></div><div class="site-state-item site-state-tags"><a href="/tags/index.html"><span class="site-state-item-count">51</span> <span class="site-state-item-name">标签</span></a></div></nav><div class="feed-link motion-element"><a href="/atom.xml" rel="alternate"><i class="fa fa-rss"></i> RSS</a></div><div class="links-of-author motion-element"><span class="links-of-author-item"><a href="https://github.com/billy21" target="_blank" title="GitHub" rel="external nofollow"><i class="fa fa-fw fa-github"></i>GitHub</a> </span><span class="links-of-author-item"><a href="https://twitter.com/incubus" target="_blank" title="Twitter" rel="external nofollow"><i class="fa fa-fw fa-twitter"></i>Twitter</a> </span><span class="links-of-author-item"><a href="https://instagram.com/incubus" target="_blank" title="Instagram" rel="external nofollow"><i class="fa fa-fw fa-instagram"></i>Instagram</a></span></div><div class="links-of-blogroll motion-element links-of-blogroll-inline"><div class="links-of-blogroll-title"><i class="fa fa-fw fa-link"></i> Links</div><ul class="links-of-blogroll-list"><li class="links-of-blogroll-item"><a href="http://99100.cn" title="99100" target="_blank">99100</a></li><li class="links-of-blogroll-item"><a href="https://beargod.me" title="Beargod" target="_blank">Beargod</a></li><li class="links-of-blogroll-item"><a href="https://geckorelay.me" title="GeckoRelay" target="_blank">GeckoRelay</a></li></ul></div></div><div class="site-overview-ads"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6384335008862617" data-ad-slot="6792921449" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script></div></section><section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active"><div class="post-toc"><div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#自由聆听和探索播客"><span class="nav-number">1.</span> <span class="nav-text">自由聆听和探索播客</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#搜索特定的剧集"><span class="nav-number">2.</span> <span class="nav-text">搜索特定的剧集</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#其它改进"><span class="nav-number">3.</span> <span class="nav-text">其它改进</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Apple-Watch-上的-Pocket-Casts"><span class="nav-number">3.1.</span> <span class="nav-text">Apple Watch 上的 Pocket Casts</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#归档节目"><span class="nav-number">3.2.</span> <span class="nav-text">归档节目</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#界面改进"><span class="nav-number">3.3.</span> <span class="nav-text">界面改进</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#支持计数"><span class="nav-number">3.4.</span> <span class="nav-text">支持计数</span></a></li></ol></li></ol></div></div><div class="post-toc-ads"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6384335008862617" data-ad-slot="6792921449" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script></div></section></div></aside></div></main><footer id="footer" class="footer"><div class="footer-inner"><div class="copyright">&copy; 2017 &mdash; <span itemprop="copyrightYear">2018</span> <span class="with-love" id="animate"><i class="fa fa-user"></i> </span><span class="author" itemprop="copyrightHolder">Dazui</span> <span class="post-meta-divider">|</span> <span class="post-meta-item-icon"><i class="fa fa-area-chart"></i> </span><span title="站点总字数">84k</span> <span class="post-meta-divider">|</span> <span class="post-meta-item-icon"><i class="fa fa-coffee"></i> </span><span title="站点阅读时长">1:17</span></div><div class="powered-by">由 <a class="theme-link" target="_blank" rel="external nofollow" href="https://hexo.io">Hexo</a> 强力驱动 v3.7.1</div><span class="post-meta-divider">|</span><div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" rel="external nofollow" href="https://theme-next.org">NexT.Muse</a> v6.3.0</div><script src="https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js"></script><script>L2Dwidget.init({tagMode:!0,debug:!1,model:{scale:1,hHeadPos:.5,vHeadPos:.618,jsonPath:"https://cdn.jsdelivr.net/npm/live2d-widget-model-hijiki@1.0.5/assets/hijiki.model.json"},display:{superSample:2,width:75,height:150,position:"right",hOffset:20,vOffset:-60},mobile:{show:!1,scale:.5},react:{opacityDefault:1,opacityOnHover:1},log:!1,pluginJsPath:"lib/",pluginModelPath:"assets/",pluginRootPath:"live2dw/"})</script></div></footer><div class="back-to-top"><i class="fa fa-arrow-up"></i> <span id="scrollpercent"><span>0</span>%</span></div></div><script type="text/javascript">"[object Function]"!==Object.prototype.toString.call(window.Promise)&&(window.Promise=null)</script><script type="text/javascript" src="//cdn.bootcss.com/jquery/2.1.3/jquery.min.js"></script><script type="text/javascript" src="//cdn.bootcss.com/velocity/1.3.1/velocity.min.js"></script><script type="text/javascript" src="//cdn.bootcss.com/velocity/1.3.1/velocity.ui.min.js"></script><script type="text/javascript" src="/js/src/utils.js?v=6.3.0"></script><script type="text/javascript" src="/js/src/motion.js?v=6.3.0"></script><script type="text/javascript" src="/js/src/scrollspy.js?v=6.3.0"></script><script type="text/javascript" src="/js/src/post-details.js?v=6.3.0"></script><script type="text/javascript" src="/js/src/bootstrap.js?v=6.3.0"></script><script type="text/javascript">var disqus_config=function(){this.page.url="http://jiangxin.info/1119/Pocket-Casts-7/",this.page.identifier="1119/Pocket-Casts-7/",this.page.title="Pocket Casts 7 ：支持 Siri 捷径、节目搜索、同步收听进度等"};function loadComments(){var t=document,e=t.createElement("script");e.src="https://jiangxin.disqus.com/embed.js",e.setAttribute("data-timestamp",""+ +new Date),(t.head||t.body).appendChild(e)}$(function(){var e=$("#comments").offset().top-$(window).height();e<=0?loadComments():$(window).on("scroll.disqus_scroll",function(){var t=document.documentElement.scrollTop;e<=t&&($(window).off(".disqus_scroll"),loadComments())})})</script><script type="text/javascript">// Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });</script><script>!function(){var t=document.createElement("script"),e=window.location.protocol.split(":")[0];t.src="https"===e?"https://zz.bdstatic.com/linksubmit/push.js":"http://push.zhanzhang.baidu.com/push.js";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}()</script><style>.copy-btn{display:inline-block;padding:6px 12px;font-size:13px;font-weight:700;line-height:20px;color:#333;white-space:nowrap;vertical-align:middle;cursor:pointer;background-color:#eee;background-image:linear-gradient(#fcfcfc,#eee);border:1px solid #d5d5d5;border-radius:3px;user-select:none;outline:0}.highlight-wrap .copy-btn{transition:opacity .3s ease-in-out;opacity:0;padding:2px 6px;position:absolute;right:4px;top:8px}.highlight-wrap .copy-btn:focus,.highlight-wrap:hover .copy-btn{opacity:1}.highlight-wrap{position:relative}</style><script>$(".highlight").each(function(t,e){var n=$("<div>").addClass("highlight-wrap");$(e).after(n),n.append($("<button>").addClass("copy-btn").append("复制").on("click",function(t){var e=$(this).parent().find(".code").find(".line").map(function(t,e){return $(e).text()}).toArray().join("\n"),n=document.createElement("textarea");document.body.appendChild(n),n.style.position="absolute",n.style.top="0px",n.style.left="0px",n.value=e,n.select(),n.focus();var o=document.execCommand("copy");document.body.removeChild(n),o?$(this).text("复制成功"):$(this).text("复制失败"),$(this).blur()})).on("mouseleave",function(t){var e=$(this).find(".copy-btn");setTimeout(function(){e.text("复制")},300)}).append(e)})</script></body></html>

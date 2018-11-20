@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jiangxin.info/"/>
-  <updated>2018-11-05T01:49:39.007Z</updated>
+  <updated>2018-11-20T04:10:15.564Z</updated>
   <id>http://jiangxin.info/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Pocket Casts 7 ：支持 Siri 捷径、节目搜索、同步收听进度等</title>
+    <link href="http://jiangxin.info/1119/Pocket-Casts-7/"/>
+    <id>http://jiangxin.info/1119/Pocket-Casts-7/</id>
+    <published>2018-11-19T08:40:50.000Z</published>
+    <updated>2018-11-20T04:10:15.564Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://i.loli.net/2018/11/20/5bf386c945fd3.png" alt="Pocket Casts 7"></p><p>知名的全平台播客应用 Pocket Casts 前不久为我们带来了 iOS 平台上的 7.0 版本，拥有 6.0 版本的用户可以免费升级，同时 Android 平台的 7.0 版本已在 Google Play 开启公测。本次大版本升级的 Pocket Casts，不仅优化了已有的旧功能，还新增了很多全新的功能，下面我们就来好好看看吧。</p><a id="more"></a><h2 id="自由聆听和探索播客"><a href="#自由聆听和探索播客" class="headerlink" title="自由聆听和探索播客"></a>自由聆听和探索播客</h2><p>在 Pocket Casts 7.0 中终于加上了在 2015 年就讨论过的<strong>「在不需要订阅某个播客的情况下，即可播放那个播客中的节目」</strong>的功能。如果你经常喜欢用播客客户端探索播客节目的话，这个功能一定会吸引到你。</p><p><img src="https://i.loli.net/2018/11/20/5bf387490da92.jpg" alt="无订阅收听节目"></p><p>我在去年换回 iOS 的原生播客应用，主要原因有 2 点：一点就是内置的播客客户端自带的浏览选项卡，能够在听完所有订阅的播客以后找一找新的节目；另外一点就是收听节目不需要订阅播客。在探索节目的时候，一般我看大部分播客的节目介绍都会感兴趣，接着就会想进一步了解这档播客，想了解的内容包括：</p><ol><li>所涉及到的内容我是否能听的懂绝大多数；</li><li>本身播客的节奏是怎样的，是需要仔细听还是当作一种白噪声即可；</li><li>播客的音质和主播的声线。</li></ol><p>这上面的内容都只有收听了具体的节目才能知道，一般的播客客户端只有订阅那个播客才能收听里面的节目，在探索节目的时候，需要在返回订阅才能收听到，如果感觉到不适合自己还需要手动解除订阅。现在除了 iOS 内置的播客客户端可以做到以外，Pocket Casts 也可以做到了，无论是试听，还是只是想听有你喜欢的嘉宾的某一期节目，这个功能都能很好地帮助到你。</p><p>此外，Pocket Casts 7 还改进了 Discovery 标签页内的内容，Discovery 中的内容将会根据下方选择的区域进行推荐，而且更新的频率相较旧版本也会更快。当然针对性的个性化推荐也自然少不了。</p><p><img src="https://i.loli.net/2018/11/20/5bf3874c8522f.png" alt="探索和分类会根据地区选择而改变"></p><p>最后，你现在可以将 Playback Effect 回放效果在在线收听的时候使用了，而不用将节目先下载下来，你可以通过这一功能随时地进行变速、裁剪静音部分或者增大播客的音量。对于 Airplay 2 的支持，还能够让 Pocket Casts 在支持 Airplay 2 的播放设备上获得优良的播放效果。</p><p><img src="https://i.loli.net/2018/11/20/5bf38749bb8e5.jpg" alt="播放效果"></p><h2 id="搜索特定的剧集"><a href="#搜索特定的剧集" class="headerlink" title="搜索特定的剧集"></a>搜索特定的剧集</h2><p>播客虽然一集一集的听听好像没什么，但是当你想回头去找过去听过的旧节目，对着长长的播客列表，一个个往下翻的痛苦感，相信找过特定节目的人都深有体会。这也是为什么我后来换回 iOS 原生播客应用的第 3 个原因：内置的播客客户端支持通过关键词进行搜索那些已经订阅的播客中的节目。</p><p>Pocket Casts 7 现在也支持搜索节目了，不过相对麻烦些：你需要进入某个播客，然后再在那个播客的节目列表里面输入关键词进行搜索；但是好处自然也有，你可以将搜索范围限定在某个你没有订阅的播客中的节目。</p><p><img src="https://i.loli.net/2018/11/20/5bf387532e152.png" alt="搜索功能对比"></p><p>同步待播放列表和收听进度</p><p>如果所作为一款全平台的播客客户端，只能同步订阅列表而不能同步收听进度，说实话这个体验真的太差了，但是这就是我在用的 iOS 系统播客应用的体验：每次在移动设备上听到一半，想打开电脑上的 iTunes 继续听还要先找到那个节目，再拖动进度条到我刚刚听的地方，电脑上听完以后手机上的进度也不会自动同步。</p><p>不过这在 Pocket Casts 7 发布以后彻底改变了，应用不仅支持同步完整的待播放列表，也支持同步节目的播放位置。只需要在一个地方设置一次 Up Next，其它设备都会自动进行同步，想听的时候直接打开听就好了。无论是在咖啡馆，还是办公室，或是通勤的路上你都可以随时享受你的播客。</p><p><img src="https://i.loli.net/2018/11/20/5bf3874752caf.png" alt="不同平台支持同步收听进度"></p><p>收听历史</p><p>就我个人而言，订阅了那么多播客，肯定是没时间仔细地全部听完。所以基本上我会建立一个名叫 White Noise（白噪声） 的列表，把新节目丢几个不重要的进去，做别的东西的时候能直接听。</p><p>但是，哪怕是当白噪声，有些部分还是需要注意到的：可能是重要的信息，可能是这个新播客听起来不错的部分，也可能是一些论据。但是一般手上忙的事情不可能马上放下，做完手上的事情再去听基本上这个节目已经到了下一个环节。而隔了段时间想起来上次好像某个节目里面有个不错的东西需要再注意下，十有八九会忘记是听的哪个节目了。Pocket Casts 7 的收听历史这个功能就非常棒了，能够根据时间点看到哪天听了哪些节目。</p><p><img src="https://i.loli.net/2018/11/20/5bf3874c830dc.jpg" alt="播放历史"></p><p>Siri 捷径</p><p>Pocket Casts 也终于支持了 Siri 捷径，除去恢复播放、暂停、播放接下来的节目这些基本的控制播放选项，应用还支持播放建议的节目、当前节目的上 / 下一章节、设置一个 5 分钟的睡眠倒计时、捷径到一个特定的播客以及捷径到一个特定的过滤器等功能。</p><p><img src="https://i.loli.net/2018/11/20/5bf387496518a.jpg" alt="Siri 捷径"></p><p>Siri 捷径不仅能作为捷径应用中动作的一个步骤，还会学习你长期使用的习惯，在下拉的搜索界面和锁屏界面给出相关建议。</p><h2 id="其它改进"><a href="#其它改进" class="headerlink" title="其它改进"></a>其它改进</h2><p>除去上面讲述的改进，Pocket Casts 7 还有如下的优化：</p><h3 id="Apple-Watch-上的-Pocket-Casts"><a href="#Apple-Watch-上的-Pocket-Casts" class="headerlink" title="Apple Watch 上的 Pocket Casts"></a>Apple Watch 上的 Pocket Casts</h3><p>Pocket Casts 的 watchOS 版本也获得了大幅度的提升，不仅能够在手表上控制手机上的播放列表，还能控制手机上的音量以及播放效果。不过 Pocket Casts 的 watchOS 版本暂时不支持下载节目到手表上进行播放，相信这个功能也已经快到来了。</p><p><img src="https://i.loli.net/2018/11/20/5bf3873f5616d.png" alt="Pocket Casts for watchOS"></p><h3 id="归档节目"><a href="#归档节目" class="headerlink" title="归档节目"></a>归档节目</h3><p>Pocket Casts 7 中还提供了将节目归档的功能，归档并不会影响节目的播放状态。归档节目的功能适合于某些日常会频繁更新的播客，比如 BBC News 和 CNN News，但是这些节目出现在未播列表会显得非常乱，而且说实话也不一定会每次都听的完。因此将它们归档是个很不错的选择，而且也不会被影响到节目的播放状态，想听的时候还可以回头接着听。</p><h3 id="界面改进"><a href="#界面改进" class="headerlink" title="界面改进"></a>界面改进</h3><p>Pocket Casts 7 中的将播放界面中的二级菜单去掉了，将所有的功能放在播放按钮的底部，方便用户快速使用。</p><p><img src="https://i.loli.net/2018/11/20/5bf3874736914.jpg" alt="全新的播放界面"></p><p>重新设计了亮色和暗色主题；还提供了全黑主题，适合用在 OLED 设备上。</p><p><img src="https://i.loli.net/2018/11/20/5bf3878570fd9.png" alt="3 种主题模式"></p><h3 id="支持计数"><a href="#支持计数" class="headerlink" title="支持计数"></a>支持计数</h3><p>Pocket Casts 7 支持季数和集数的计数，如果当前的播客节目支持则会进行显示。</p><p><img src="https://i.loli.net/2018/11/20/5bf3878385391.png" alt="节目更新日期之前的计数"></p><p>最后还有一个小彩蛋，这次 Pocket Casts 7 的 iOS 版本的发布说明也非常有意思，采用了导演文字版的分镜脚本的形式，呈现了全新的 7.0 版本推出<del>如果有</del>的一个视频广告。而且通过分镜注释 (Posh British accent) 和后面故意写出的 「The chamfered aluminium（带有倒角的金属铝)」 可以很果断地推断出，朗读这段文字的绝对会是 Jony lve 爵士，不过可惜的是超过预算了，看不到就是了，应该是预算请不动爵士吧 😂。</p><p>目前 Pocket Casts 7 国区售价 25 元，<a href="https://playbeta.pocketcasts.com/" target="_blank" rel="noopener">网页版</a>一次性收款 9 刀，不过目前 macOS 和 Windows 2 大<a href="https://playbeta.pocketcasts.com/web/settings/apps" target="_blank" rel="noopener">桌面平台</a>由于处于 Beta 测试状态所以暂时免费。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2018/11/20/5bf386c945fd3.png&quot; alt=&quot;Pocket Casts 7&quot;&gt;&lt;/p&gt;&lt;p&gt;知名的全平台播客应用 Pocket Casts 前不久为我们带来了 iOS 平台上的 7.0 版本，拥有 6.0 版本的用户可以免费升级，同时 Android 平台的 7.0 版本已在 Google Play 开启公测。本次大版本升级的 Pocket Casts，不仅优化了已有的旧功能，还新增了很多全新的功能，下面我们就来好好看看吧。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Pocket Casts" scheme="http://jiangxin.info/tags/Pocket-Casts/"/>
+    
+  </entry>
   
   <entry>
     <title>如何体验 Apple News？</title>
@@ -457,24 +477,6 @@
       <category term="Ingress" scheme="http://jiangxin.info/tags/Ingress/"/>
     
       <category term="Pokémon Go" scheme="http://jiangxin.info/tags/Pokemon-Go/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>拼啦的平凡之路 项目第一阶段告终</title>
-    <link href="http://jiangxin.info/1209/pinla-first-stage/"/>
-    <id>http://jiangxin.info/1209/pinla-first-stage/</id>
-    <published>2015-12-09T07:55:53.000Z</published>
-    <updated>2018-08-06T08:24:41.666Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://cdn-images-1.medium.com/max/2000/1*wAGbn3cxamozWNEFY_aYMA.jpeg" alt="img"></p><p>拼啦App — 发现平行视界之美</p><p>2015年12月2日 拼啦团队完成1.4.1版的封装，不夸张的说真的是长舒一口气，因为一路走来这个不被看好的过程确实有太多值得缅怀。</p><p>也就是这样一款不停被用户抱怨玩不懂，被机构吐槽看不懂的东西，从5月25日提审初版至今走过了17个版本更新后，终于宣告第一节点结束，正式启动了2.0版的开发。</p><a id="more"></a><p><img src="https://cdn-images-1.medium.com/max/2000/1*Qi3U5OI_2McjxszN-O7bHQ.png" alt="img"></p><p>拼啦App 1.X版本变化</p><h2 id="为什么说是第一节点结束"><a href="#为什么说是第一节点结束" class="headerlink" title="为什么说是第一节点结束"></a>为什么说是第一节点结束</h2><p>2015年3月，三个不算年轻的小伙伴聚在一起，决定做一款不同于市面绝大部分玩法的App，不同于大点买优惠券享受专座待遇，不同于陌陌查户口式陌生人社交，不同于端手游日常冲服式死板。。。我们目标仅仅是实现从收集到交换的碎片式目的社交模式。</p><p>但现实状况并不像我们所想的那样乐观，我们的终极目标已经违背使用者已在几座大山下建立的习惯，因为大家都习惯了张口伸手。</p><p>基于这样的压力团队做了各种假设，但最终还是在吸引用户进入的瓶颈做了让步，结合各路资源以散实惠的方式带动第一批用户进入，在收集实惠的同时培养用户的收集习惯，结合目的创造交换的目的社交场景。我当他是一个好的开端。</p><p>2015年12月，经历了漫长的17个上线版迭代，拼啦App终于为第一阶段收集实惠画上了句号这个过程我称它为互惠互利。</p><h2 id="为什么那么多人说不好，我们还在做"><a href="#为什么那么多人说不好，我们还在做" class="headerlink" title="为什么那么多人说不好，我们还在做"></a>为什么那么多人说不好，我们还在做</h2><p>拼啦项目开始前就存在很多争议，如奇葩玩法，变态交互，开发的过程也几经周折，可就是这么一个平庸甚至简陋的东西仍然被我们视为珍宝且还算争气，7月25上线至今跑出58w用户的成绩。</p><p>项目启动的第一天，每个被故事忽悠参与进来的小伙伴都知道停不下了。队伍野班子也好、做事没章法也好、产品没目的也好、界面逆天也好……单就凭着一膀子蛮劲儿跟着规划路线拼到了今天。说来惭愧，身在拼啦团队的每个小伙伴都给新用户讲解过这个东西怎么玩，所以运营小伙伴每次线下活动都消耗着大量精力在使用引导。</p><p>图啥，不就是一个梦嘛，每个人在这台戏里都肩负自己的角色飚着演技，观众怎么看已经不重要，我们当真且津津乐道，不是都说么心有多大舞台就有多大，我们不在乎剧本怎么样，只在意这个片子由谁来导，好的导演会随着剧情深入参插各种分支，让演员之间发生着自然的化学变化，当然了也会有种种角色在不同节点失去关联，甚至有落队的还在外围苟喘发挥余热秀着价值，对于这类拼啦都情同理应送声呵呵。</p><p>就是这样的过程支撑着我们一路走下去，不漂亮，但也值得为之骄傲。</p><p><img src="https://cdn-images-1.medium.com/max/1600/1*8Hkt7FOuSm2FSLs7K0BPPA.png" alt="img"></p><p>拼啦App 2015年11月 新增数据</p><h2 id="为什么我相信我们会活的很好"><a href="#为什么我相信我们会活的很好" class="headerlink" title="为什么我相信我们会活的很好"></a>为什么我相信我们会活的很好</h2><p>拼啦项目延续至今，团队和数据都有我们共识的伤，正是这在外人来看已无药可救的伤，激励我们不停的改善。</p><p>而且这仅仅是一个开始，仅仅的背景人物出场和设备预热又能代表什么呢？呵呵。</p><ul><li>说已有优惠模式用户直接拿就好为啥要花时间收集？我们数据表明这份参与感元大于消耗优惠；</li><li>说已有社交模式场景足完成闭环为啥要用交换社交？我们数据显示分享的快乐有效拉近陌生人；</li><li>说已有手游模式变现套路这么清晰为啥要用新玩法？我们数据发现真正的游戏足够真实更粘人；</li><li>……</li></ul><p>不看节选集锦，连岛国片不可能高潮不断，就算复制剧本也要符合起承转合，TOP100的再怎么翻拍能有多超越。只有创新才会走的更久远，只有创意才会走的更坚定。</p><p>我们一无所有，但正因如此，就是拼的理由。</p><p>我不剧透……</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*wAGbn3cxamozWNEFY_aYMA.jpeg&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;&lt;p&gt;拼啦App — 发现平行视界之美&lt;/p&gt;&lt;p&gt;2015年12月2日 拼啦团队完成1.4.1版的封装，不夸张的说真的是长舒一口气，因为一路走来这个不被看好的过程确实有太多值得缅怀。&lt;/p&gt;&lt;p&gt;也就是这样一款不停被用户抱怨玩不懂，被机构吐槽看不懂的东西，从5月25日提审初版至今走过了17个版本更新后，终于宣告第一节点结束，正式启动了2.0版的开发。&lt;/p&gt;
-    
-    </summary>
-    
     
   </entry>
   
