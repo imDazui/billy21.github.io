@@ -1,652 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-
-    
   <url>
     <loc>http://jiangxin.info/1220/npm-tips-and-tricks/</loc>
-    <lastmod>2018-12-20T13:29:41.260Z</lastmod>
-    <data>
-        <display>
-        <title>NPM 一些有用的提示和技巧</title>
-        <pubTime>2018-12-20T13:05:33.000Z</pubTime>
-        
-        <tag>npm</tag>
-         
-        <tag>tips</tag>
-         
-        <tag>tricks</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-12-20</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/1217/tumblr-download/</loc>
-    <lastmod>2018-12-17T11:42:05.160Z</lastmod>
-    <data>
-        <display>
-        <title>如何批量下载 Tumblr 博客内容</title>
-        <pubTime>2018-12-17T11:21:00.000Z</pubTime>
-        
-        <tag>Tumblr</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-12-17</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/1207/the-best-javascript-and-css-libraries-for-2018/</loc>
-    <lastmod>2018-12-07T05:11:32.903Z</lastmod>
-    <data>
-        <display>
-        <title>2018年最佳 JavaScript 和 CSS 库【转译】</title>
-        <pubTime>2018-12-07T11:22:56.000Z</pubTime>
-        
-        <tag>JavaScript</tag>
-         
-        <tag>CSS</tag>
-         
-        <tag>Gatsby</tag>
-         
-        <tag>Flutter</tag>
-         
-        <tag>Muuri</tag>
-         
-        <tag>Web-Maker</tag>
-         
-        <tag>Slate</tag>
-         
-        <tag>Wiki.js</tag>
-         
-        <tag>ContentTools</tag>
-         
-        <tag>VuePress</tag>
-         
-        <tag>Eva Icons</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-12-07</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/1206/Red-Dead-Redemption-2/</loc>
-    <lastmod>2018-12-07T04:51:48.190Z</lastmod>
-    <data>
-        <display>
-        <title>《荒野大镖客：救赎2》攻略(单机/Online图文教学)：密技作弊码/赚钱(12/10更新)</title>
-        <pubTime>2018-12-06T01:30:23.000Z</pubTime>
-        
-        <tag>荒野大镖客：救赎2</tag>
-         
-        <tag>碧血狂杀2</tag>
-         
-        <tag>攻略</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-12-07</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/1202/hanman/</loc>
-    <lastmod>2018-12-03T06:15:45.724Z</lastmod>
-    <data>
-        <display>
-        <title>喜欢看韩漫吗？咚漫怎么注册？吸睛韩漫推荐</title>
-        <pubTime>2018-12-02T04:40:33.000Z</pubTime>
-        
-        <tag>韩漫</tag>
-         
-        <tag>咚漫</tag>
-         
-        <tag>漫画推荐</tag>
-         
-        <tag>看脸时代</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-12-03</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/1119/Pocket-Casts-7/</loc>
-    <lastmod>2018-11-20T04:10:15.564Z</lastmod>
-    <data>
-        <display>
-        <title>Pocket Casts 7 ：支持 Siri 捷径、节目搜索、同步收听进度等</title>
-        <pubTime>2018-11-19T08:40:50.000Z</pubTime>
-        
-        <tag>Pocket Casts</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-11-20</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/1104/Apple-News/</loc>
-    <lastmod>2018-11-05T01:49:39.007Z</lastmod>
-    <data>
-        <display>
-        <title>如何体验 Apple News？</title>
-        <pubTime>2018-11-04T02:04:50.000Z</pubTime>
-        
-        <tag>Apple News</tag>
-         
-        <tag>Google News</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-11-05</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/1031/AmazonPrime-QQVideoVip/</loc>
-    <lastmod>2018-10-31T09:18:14.541Z</lastmod>
-    <data>
-        <display>
-        <title>能帮你省近 200 元的 「Amazon Prime + 腾讯视频 VIP」 联合套餐，到底值不值？</title>
-        <pubTime>2018-10-31T08:24:50.000Z</pubTime>
-        
-        <tag>Amazon Prime</tag>
-         
-        <tag>腾讯视频 VIP</tag>
-         
-        <tag>联合套餐</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-10-31</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/1030/ht-ebook/</loc>
-    <lastmod>2018-10-31T09:10:51.481Z</lastmod>
-    <data>
-        <display>
-        <title>如何购买港台电子书？</title>
-        <pubTime>2018-10-30T05:24:50.000Z</pubTime>
-        
-        <tag>电子书</tag>
-         
-        <tag>Google Play</tag>
-         
-        <tag>Amazon</tag>
-         
-        <tag>Kobo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-10-31</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/1016/recode-media-landscape/</loc>
-    <lastmod>2018-10-16T10:42:36.917Z</lastmod>
-    <data>
-        <display>
-        <title>美国电影电视产业版图</title>
-        <pubTime>2018-10-16T10:24:50.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-10-16</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/1015/retrieve-deleted/</loc>
-    <lastmod>2018-10-16T10:25:36.056Z</lastmod>
-    <data>
-        <display>
-        <title>找回被删除的网页&新闻</title>
-        <pubTime>2018-10-15T04:40:50.000Z</pubTime>
-        
-        <tag>404</tag>
-         
-        <tag>印象笔记</tag>
-         
-        <tag>Pocket</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-10-16</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/0901/public-dns/</loc>
-    <lastmod>2018-09-03T02:52:50.989Z</lastmod>
-    <data>
-        <display>
-        <title>全球公共DNS推荐 解决无法上网&加速&防劫持</title>
-        <pubTime>2018-09-01T07:55:50.000Z</pubTime>
-        
-        <tag>DNS</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-09-03</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/0829/iterm2-zsh-onmyzsh/</loc>
-    <lastmod>2018-08-30T10:38:43.975Z</lastmod>
-    <data>
-        <display>
-        <title>iTerm2 + zsh + oh-my-zsh macOS上最强大的终端功能</title>
-        <pubTime>2018-08-29T07:55:50.000Z</pubTime>
-        
-        <tag>iTerm2</tag>
-         
-        <tag>zsh</tag>
-         
-        <tag>oh-my-zsh</tag>
-         
-        <tag>macOS</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-08-30</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/0303/hello-world/</loc>
-    <lastmod>2018-08-29T05:13:27.412Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2017-03-03T15:01:03.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-08-29</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/0901/fifa-201718/</loc>
-    <lastmod>2018-08-29T05:13:16.794Z</lastmod>
-    <data>
-        <display>
-        <title>欧足2017/2018赛季全面开战，这份观赛指南带你一起扛一起狂</title>
-        <pubTime>2017-09-01T07:56:00.000Z</pubTime>
-        
-        <tag>FIFA</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-08-29</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/0623/ar-vr-game/</loc>
-    <lastmod>2018-08-29T05:12:56.977Z</lastmod>
-    <data>
-        <display>
-        <title>从 Ingress 到 Pokémon Go，看虚拟实景游戏的蝉变及涌动</title>
-        <pubTime>2016-06-23T07:55:56.000Z</pubTime>
-        
-        <tag>Ingress</tag>
-         
-        <tag>Pokémon Go</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-08-29</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/0828/google-pay/</loc>
-    <lastmod>2018-08-29T04:58:27.394Z</lastmod>
-    <data>
-        <display>
-        <title>Google Play 经验分享</title>
-        <pubTime>2018-08-28T03:46:15.000Z</pubTime>
-        
-        <tag>Google</tag>
-         
-        <tag>Pay</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-08-29</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/0828/subscribe-now/</loc>
-    <lastmod>2018-08-29T04:52:45.669Z</lastmod>
-    <data>
-        <display>
-        <title>一顿饭钱能买到好多优质包月服务</title>
-        <pubTime>2018-08-28T11:46:15.000Z</pubTime>
-        
-        <tag>Kindle</tag>
-         
-        <tag>Apple Music</tag>
-         
-        <tag>QQ</tag>
-         
-        <tag>音乐</tag>
-         
-        <tag>视频</tag>
-         
-        <tag>iCloud</tag>
-         
-        <tag>云盘</tag>
-         
-        <tag>Bear</tag>
-         
-        <tag>饿了么</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-08-29</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/0826/birthday-offer/</loc>
-    <lastmod>2018-08-27T09:33:01.721Z</lastmod>
-    <data>
-        <display>
-        <title>这20多个生日优惠 足见商家良苦用心</title>
-        <pubTime>2018-08-26T11:46:15.000Z</pubTime>
-        
-        <tag>生日</tag>
-         
-        <tag>优惠</tag>
-         
-        <tag>薅羊毛</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-    
-  <url>
+    <lastmod>2018-08-27</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/0818/proxy-protocol-compared/</loc>
-    <lastmod>2018-08-19T05:10:06.335Z</lastmod>
-    <data>
-        <display>
-        <title>加密代理协议简单对比</title>
-        <pubTime>2018-08-18T11:46:15.000Z</pubTime>
-        
-        <tag>HTTPS</tag>
-         
-        <tag>SOCKS5-TLS</tag>
-         
-        <tag>shadowsocks</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-08-19</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/0303/hexo-github/</loc>
-    <lastmod>2018-08-16T10:47:07.833Z</lastmod>
-    <data>
-        <display>
-        <title>nodejs+hexo github+Netlify</title>
-        <pubTime>2017-03-03T15:47:46.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-        <tag>github</tag>
-         
-        <tag>nodejs</tag>
-         
-        <tag>Netlify</tag>
-         
-        <tag>SEO</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-    
-    
-  <url>
+    <lastmod>2018-08-16</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/0815/whmcs-theme/</loc>
-    <lastmod>2018-08-15T12:46:53.363Z</lastmod>
-    <data>
-        <display>
-        <title>如何优雅的学习WHMCS主题</title>
-        <pubTime>2018-08-15T11:46:15.000Z</pubTime>
-        
-        <tag>WHMCS</tag>
-         
-        <tag>theme</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-08-15</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/0807/divineengine-profiles/</loc>
-    <lastmod>2018-08-07T11:59:51.010Z</lastmod>
-    <data>
-        <display>
-        <title>Surge、Shadowrocket、Pepi(ShadowRay)、Kitsunebi、Potatso 2、V2Ray(v2rayNG、BifrostV) 的配置规则文件</title>
-        <pubTime>2018-08-07T09:15:00.000Z</pubTime>
-        
-        <tag>Surge</tag>
-         
-        <tag>Shadowrocket</tag>
-         
-        <tag>Pepi</tag>
-         
-        <tag>Kitsunebi</tag>
-         
-        <tag>Potatso</tag>
-         
-        <tag>V2Ray</tag>
-         
-         
-           
-             
-              <breadCrumb title="os and apps" url="http://jiangxin.info/categories/os-and-apps/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-08-07</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/0807/high-quality-proxy/</loc>
-    <lastmod>2018-08-07T07:23:44.653Z</lastmod>
-    <data>
-        <display>
-        <title>“工匠精神” 精心打造一个代理服务器</title>
-        <pubTime>2018-08-07T07:18:36.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-08-07</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/0123/2018-nba-all-star/</loc>
-    <lastmod>2018-08-06T08:32:05.388Z</lastmod>
-    <data>
-        <display>
-        <title>全明星改制票王选秀 讲真詹姆斯&库里做队长真不如你</title>
-        <pubTime>2018-01-23T07:56:03.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-08-06</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/1209/pinla-first-stage/</loc>
-    <lastmod>2018-08-06T08:24:41.666Z</lastmod>
-    <data>
-        <display>
-        <title>拼啦的平凡之路 项目第一阶段告终</title>
-        <pubTime>2015-12-09T07:55:53.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-08-06</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/1020/141020/</loc>
-    <lastmod>2018-08-06T08:22:27.728Z</lastmod>
-    <data>
-        <display>
-        <title>洗洗睡吧，别那犯贱了。。。</title>
-        <pubTime>2014-10-20T07:55:50.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-08-06</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/1019/141019/</loc>
-    <lastmod>2018-08-06T08:21:25.980Z</lastmod>
-    <data>
-        <display>
-        <title>岁月你别催 该来的我不推…岁月你别催 走远的我不追….</title>
-        <pubTime>2014-10-19T07:55:45.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-08-06</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/1018/141018/</loc>
-    <lastmod>2018-08-06T08:20:13.115Z</lastmod>
-    <data>
-        <display>
-        <title>回忆会从内侧温暖你的身体，同时又从内侧剧烈切割你的身体。</title>
-        <pubTime>2014-10-18T07:55:40.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-08-06</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/1017/141017/</loc>
-    <lastmod>2018-08-06T08:08:17.493Z</lastmod>
-    <data>
-        <display>
-        <title>曾虑多情损梵行，入山又恐别倾城；世间安得双全法，不负如来不负卿。</title>
-        <pubTime>2014-10-17T07:55:35.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-08-06</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/1016/141016/</loc>
-    <lastmod>2018-08-06T08:03:19.544Z</lastmod>
-    <data>
-        <display>
-        <title>《一代宗师》试着读懂：“时间、爱情、人生”</title>
-        <pubTime>2014-10-16T07:55:20.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-08-06</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/1014/141015/</loc>
-    <lastmod>2018-08-06T07:59:32.970Z</lastmod>
-    <data>
-        <display>
-        <title>转：影响一生的职业建议</title>
-        <pubTime>2014-10-14T07:54:41.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2018-08-06</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/1204/131204/</loc>
-    <lastmod>2018-08-06T07:53:38.880Z</lastmod>
-    <data>
-        <display>
-        <title>这里想捡起来就那么难？</title>
-        <pubTime>2013-12-04T07:46:44.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
+    <lastmod>2018-08-06</lastmod>
+  </url>
 </urlset>
