@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jiangxin.info/"/>
-  <updated>2019-05-28T07:19:46.246Z</updated>
+  <updated>2019-05-31T06:16:41.811Z</updated>
   <id>http://jiangxin.info/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>支持 种子/磁力链接 的播放器 Windows/Mac</title>
+    <link href="http://jiangxin.info/0530/Soda-Player-Play-BitTorrent-videos-instantly-fast-SOCKS5-proxy/"/>
+    <id>http://jiangxin.info/0530/Soda-Player-Play-BitTorrent-videos-instantly-fast-SOCKS5-proxy/</id>
+    <published>2019-05-29T23:21:00.000Z</published>
+    <updated>2019-05-31T06:16:41.811Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://i.loli.net/2019/05/31/5cf0c3f12ebad33501.png" alt="Soda Player 播放器"></p><p>无论是迅雷、还是百度云都免不了视频资源的下载等待，且很多资源下载不了，这里推荐一款 Soda Player，复制磁力链接或者拖入种子文件，可以在一分钟内直接开始播放，并且速度很快。</p><a id="more"></a><h2 id="Soda-Player-简介"><a href="#Soda-Player-简介" class="headerlink" title="Soda Player 简介"></a>Soda Player 简介</h2><p>Soda Player 是一款桌面端种子播放器，支持 Windows/Mac 平台，免费，主要功能是通过种子/Torrent 流播。下面简介照搬官方，但是真的超级实用。</p><ul><li>边看边播，速度极快</li><li>内置 SOCKS5 代理，目前此功能免费</li><li>支持 Chromecast， AirPlay 投屏；可以将电脑上的视频投屏到 Apple TV，小米盒子，Shield TV 等</li><li>自动加载多语言字幕，同时支持手动导入字幕</li><li>支持多种视频格式；H.264 HEVC/H.265 硬解码</li><li>免费！</li></ul><p><img src="https://i.loli.net/2019/05/31/5cf0c42c33b2244971.png" alt="Soda Player 种子播放器">￼</p><p>个人使用一年多，在这里补充一点个人的使用经验</p><ul><li>国外种子站的种子播放速度都很棒，<strong>国内种子（熟肉资源）一般都无法加载成功</strong></li><li>自动加载的中文字幕大部分时候是错误或者乱码，需要手动下载字幕拖入；英文字幕一般都没问题</li><li>内置的 SOCK5 代理开启后加载速度更好，如果使用 Surge / Proxifier 代理工具，请注意不要冲突</li></ul><h2 id="第一步：-找种子"><a href="#第一步：-找种子" class="headerlink" title="第一步： 找种子"></a>第一步： 找种子</h2><p><strong>因为国内视频网站的种子基本都没法加载成功</strong>，所以介绍几个常用知名的种子站，基本能涵盖所有主流的英美剧与电影。</p><p><a href="https://yts.su/" target="_blank" rel="noopener">YIFY</a>￼</p><p>知名电影种子站。针对同一部电影，YIFY 根据清晰度提供 720P/1080P/4K/3D 不同的规格，且规格只有一个资源。从这里下载电影，能够避免资源混乱，字幕错位等问题。资源优质，更新也算及时。</p><p><img src="https://i.loli.net/2019/05/31/5cf0c42c3bc8a97772.png" alt="YIFY知名电影种子站">￼</p><p><a href="https://www.thepiratebay.org/" target="_blank" rel="noopener">The Pirate Bay</a>￼</p><p>海盗湾是一个专门存储、分类及搜索Bittorrent种子文件及磁力链接的网站，由瑞典的民间反著作权组织海盗署于2003年成立，支持35种语言。</p><p><a href="https://eztv-torrent.com/" target="_blank" rel="noopener">EZTV</a>￼</p><p>基本上国内美剧的生肉资源都是来自 EZTV，找到资源复制磁力链接即可，这里也不需要做过多介绍。</p><p><a href="https://showrss.info/" target="_blank" rel="noopener">showRSS</a>￼</p><p>showRSS 提供的美剧资源不多，但是登录账号后，可以自动订阅你想看的美剧，更新新一集时，面板自动同步列出磁力链接。没有任何广告，如果追的剧这里都有资源，配上 Soda Player 看剧十分方便。</p><p><img src="https://i.loli.net/2019/05/31/5cf0c42c09ea939561.png" alt="showRSS 提供的美剧资源">￼</p><p>同时找到各类小黄片的种子，放在 Soda Player 中一样可以飞速加载。</p><p>当然，别忘了<a href="http://www.zimuzu.io" target="_blank" rel="noopener">人人影视字幕组</a>资源。</p><h2 id="第二步：复制粘贴-Torrent-链接"><a href="#第二步：复制粘贴-Torrent-链接" class="headerlink" title="第二步：复制粘贴 Torrent 链接"></a>第二步：复制粘贴 Torrent 链接</h2><p>对！ 复制粘贴即可播放。</p><p>如果速度不理想，可选择关闭/开启自带的 SOCKS5 代理。播放界面右下角盾牌形状的按钮即是代理，点击开启/关闭，会提示重新启动播放器生效。</p><p><img src="https://i.loli.net/2019/05/31/5cf0c42bd159b30791.png" alt="Soda Player 自带的 SOCKS5 代理">￼</p><h2 id="第三步：字幕问题"><a href="#第三步：字幕问题" class="headerlink" title="第三步：字幕问题"></a>第三步：字幕问题</h2><p>Soda Player 可以自动识别片源加载字幕。英文字幕一般都比较准确。中文字幕大部分时候并不准确，甚至是乱码。建议在 <a href="http://subhd.com/" target="_blank" rel="noopener">Sub HD</a> 上下载拖入即可。</p><p><img src="https://i.loli.net/2019/05/31/5cf0c42c4412767500.png" alt="Soda Player 自动识别片源加载字幕">￼</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/05/31/5cf0c3f12ebad33501.png&quot; alt=&quot;Soda Player 播放器&quot;&gt;&lt;/p&gt;&lt;p&gt;无论是迅雷、还是百度云都免不了视频资源的下载等待，且很多资源下载不了，这里推荐一款 Soda Player，复制磁力链接或者拖入种子文件，可以在一分钟内直接开始播放，并且速度很快。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://jiangxin.info/categories/Tools/"/>
+    
+    
+      <category term="Windows" scheme="http://jiangxin.info/tags/Windows/"/>
+    
+      <category term="Soda Player" scheme="http://jiangxin.info/tags/Soda-Player/"/>
+    
+      <category term="磁力链接" scheme="http://jiangxin.info/tags/%E7%A3%81%E5%8A%9B%E9%93%BE%E6%8E%A5/"/>
+    
+      <category term="种子" scheme="http://jiangxin.info/tags/%E7%A7%8D%E5%AD%90/"/>
+    
+      <category term="Mac" scheme="http://jiangxin.info/tags/Mac/"/>
+    
+      <category term="Tools" scheme="http://jiangxin.info/tags/Tools/"/>
+    
+      <category term="播放器" scheme="http://jiangxin.info/tags/%E6%92%AD%E6%94%BE%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>美区 Apple ID 充值渠道汇总 总有一种适合你</title>
@@ -36,15 +70,13 @@
     
       <category term="充值渠道" scheme="http://jiangxin.info/tags/%E5%85%85%E5%80%BC%E6%B8%A0%E9%81%93/"/>
     
-      <category term="Google Play" scheme="http://jiangxin.info/tags/Google-Play/"/>
-    
-      <category term="Amazon" scheme="http://jiangxin.info/tags/Amazon/"/>
-    
       <category term="Paypal" scheme="http://jiangxin.info/tags/Paypal/"/>
     
       <category term="礼品卡" scheme="http://jiangxin.info/tags/%E7%A4%BC%E5%93%81%E5%8D%A1/"/>
     
       <category term="Apple Pay" scheme="http://jiangxin.info/tags/Apple-Pay/"/>
+    
+      <category term="Amazon" scheme="http://jiangxin.info/tags/Amazon/"/>
     
       <category term="Walmart" scheme="http://jiangxin.info/tags/Walmart/"/>
     
@@ -55,6 +87,8 @@
       <category term="信用卡" scheme="http://jiangxin.info/tags/%E4%BF%A1%E7%94%A8%E5%8D%A1/"/>
     
       <category term="代充服务" scheme="http://jiangxin.info/tags/%E4%BB%A3%E5%85%85%E6%9C%8D%E5%8A%A1/"/>
+    
+      <category term="Google Play" scheme="http://jiangxin.info/tags/Google-Play/"/>
     
       <category term="Gift Card" scheme="http://jiangxin.info/tags/Gift-Card/"/>
     
@@ -138,19 +172,19 @@
       <category term="os and apps" scheme="http://jiangxin.info/categories/os-and-apps/"/>
     
     
+      <category term="Surge" scheme="http://jiangxin.info/tags/Surge/"/>
+    
+      <category term="Quantumult" scheme="http://jiangxin.info/tags/Quantumult/"/>
+    
+      <category term="Shadowrocket" scheme="http://jiangxin.info/tags/Shadowrocket/"/>
+    
       <category term="Potatso" scheme="http://jiangxin.info/tags/Potatso/"/>
     
       <category term="V2Ray" scheme="http://jiangxin.info/tags/V2Ray/"/>
     
-      <category term="Surge" scheme="http://jiangxin.info/tags/Surge/"/>
-    
       <category term="ClashX" scheme="http://jiangxin.info/tags/ClashX/"/>
     
-      <category term="Quantumult" scheme="http://jiangxin.info/tags/Quantumult/"/>
-    
       <category term="Kitsunebi" scheme="http://jiangxin.info/tags/Kitsunebi/"/>
-    
-      <category term="Shadowrocket" scheme="http://jiangxin.info/tags/Shadowrocket/"/>
     
       <category term="Pepi" scheme="http://jiangxin.info/tags/Pepi/"/>
     
@@ -442,11 +476,11 @@
     </summary>
     
     
-      <category term="电子书" scheme="http://jiangxin.info/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
+      <category term="Amazon" scheme="http://jiangxin.info/tags/Amazon/"/>
     
       <category term="Google Play" scheme="http://jiangxin.info/tags/Google-Play/"/>
     
-      <category term="Amazon" scheme="http://jiangxin.info/tags/Amazon/"/>
+      <category term="电子书" scheme="http://jiangxin.info/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
     
       <category term="Kobo" scheme="http://jiangxin.info/tags/Kobo/"/>
     
@@ -537,42 +571,6 @@
       <category term="zsh" scheme="http://jiangxin.info/tags/zsh/"/>
     
       <category term="oh-my-zsh" scheme="http://jiangxin.info/tags/oh-my-zsh/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一顿饭钱能买到好多优质包月服务</title>
-    <link href="http://jiangxin.info/0828/subscribe-now/"/>
-    <id>http://jiangxin.info/0828/subscribe-now/</id>
-    <published>2018-08-28T11:46:15.000Z</published>
-    <updated>2018-08-29T04:52:45.669Z</updated>
-    
-    <content type="html"><![CDATA[<p>自从苹果在 2016 年调整了订阅模式下的开发者分成比例，越来越多的开发者尝试将自己的产品更改成了付费订阅制。</p><p>不过今天，让我们抛开订阅制本身的孰是孰非，来看一下有哪些订阅服务是「物美价廉」的。为了筛选出这十个订阅服务，我为它们制定了三个标准：</p><ol><li>订阅费用可以选择按月支付；</li><li>每月订阅费用不高于 20 元；</li><li>个人订阅，而非家庭、团队或者企业版本。</li></ol><a id="more"></a><h2 id="书影音类"><a href="#书影音类" class="headerlink" title="书影音类"></a>书影音类</h2><h3 id="Kindle-Unlimited"><a href="#Kindle-Unlimited" class="headerlink" title="Kindle Unlimited"></a>Kindle Unlimited</h3><p>Kindle Unlimited 是亚马逊推出的电子书包月服务，你只需按时支付一笔费用即可阅读 10 万余本中英文书籍。也许对于一些重度阅读者和追求新书的读者来说，Kindle Unlimited 的资源还算不上丰富，但是对于普通读者来说，Kindle Unlimited 是他们扩大阅读面和接触原版外文书籍最经济实惠的选择。</p><p>你可以 <strong>每月 12 元</strong> 的价格订阅 Kindle Unlimited，当然按年订阅价格会更低，另外在双十一和黑五亚马逊还有促销活动，往年的价格都低于 90 元/年。</p><p><img src="https://cdn.sspai.com/2018/08/24/3b3d9e6893738d14fd846abb74034df5.png?imageView2" alt="img"></p><h3 id="Apple-Music"><a href="#Apple-Music" class="headerlink" title="Apple Music"></a>Apple Music</h3><p>在 Apple Music、Spotify、网易云音乐、QQ 音乐和虾米音乐等一众音乐流媒体服务中，中国区的 <a href="https://www.apple.com/cn/apple-music/" target="_blank" rel="noopener">Apple Music</a> 的收费可以算得上最实惠的了。<strong>每个月只需 10 元</strong>，即可畅听数百万首歌曲，没有广告，也无需单独购买歌曲或者专辑，甚至还有独享的原创节目、电台广播、演唱会等内容。</p><p>如果你是学生，那就更划算了，只要通过 UNiDAYS 平台的验证，你就可以享受到每月 5 元的订阅价格。</p><p><img src="https://cdn.sspai.com/2018/08/24/95091336b9fc590881b887ba7814632e.png?imageView2" alt="img"></p><h3 id="QQ-音乐"><a href="#QQ-音乐" class="headerlink" title="QQ 音乐"></a>QQ 音乐</h3><p>作为国内最早的音乐服务提供商之一，QQ 音乐在那场音乐版权之战中存活了下来并且活得更好了。强大的资本支持帮助 QQ 音乐购买到了比竞争对手更齐全的歌曲版权，加上过硬的产品质量，QQ 音乐成为了很多海内外用户的第一选择。当然，国内的音乐服务目前都需要通过付费的方式来解锁歌曲资源，QQ 音乐也不例外，<strong>每月 15 元</strong> 的绿钻价格除了提供海量高品质的音乐，还有其他一些 QQ 生态下的功能，虽然价格没有优势，但是胜在版权资源齐全。</p><p><img src="https://cdn.sspai.com/2018/08/28/674ab0aae7af4b44a42a7fd873b4835d.png?imageView2" alt="img"></p><h3 id="腾讯视频"><a href="#腾讯视频" class="headerlink" title="腾讯视频"></a>腾讯视频</h3><p>作为国内的三大视频门户之一，腾讯视频凭借它丰富的原创节目、美剧、NBA 和纪录片等资源，做到了通过高质量的内容差异化来赢得用户口碑。</p><p>腾讯视频的会员订阅价格为 <strong>每月 20 元</strong> ，包含了内容特权、观影特权和直播特权三部分的内容，其中「院线新片持续更新」「独家王者美剧」「热剧提前看」「广告特权」「高清画质随心享」等功能也足以值回票价了。如果你是腾讯王卡的用户，你甚至只需 10 元/月的半价就能订阅到腾讯视频VIP。</p><p><img src="https://cdn.sspai.com/2018/08/24/629919137325bb480b60098fa8ddf789.jpg?imageView2" alt="img"></p><h2 id="云盘类"><a href="#云盘类" class="headerlink" title="云盘类"></a>云盘类</h2><h3 id="iCloud"><a href="#iCloud" class="headerlink" title="iCloud"></a>iCloud</h3><p>在云储存服务市场，苹果继续在国内扮演了一个价格先锋的角色。最低档的 50 G 套餐，<strong>每个月只要 6 元</strong>。随着云上贵州的建立，iCloud 在国内的传输速度和稳定性也得到了大幅提升。在扩容 iCloud 储存空间后，你可以更加自如地备份设备、上传照片、同步文件等，再也不用像之前那样老是被提醒 iCloud 备份失败了。不久前，DEVONthink 也加入了 iCloud 同步的选项，比起 Dropbox、Box 和坚果云等，iCloud 的价格无疑更具竞争力。</p><p><img src="https://cdn.sspai.com/2018/08/24/fc5178b1f3688f5616c2e954dc3c575a.png?imageView2" alt="img"></p><h3 id="Google-Drive"><a href="#Google-Drive" class="headerlink" title="Google Drive"></a>Google Drive</h3><p>对于掌握了科学上网或者 Google 服务的重度使用者来说，Google Drive 也是一个不错的选择。首先来说价格，Google Drive 的收费标准远低于 One Drive、Dropbox、Box 等竞争对手，最低<strong>每月 1.99 美元（大约 14 人民币）</strong>就可以获得 100 G 的储存空间。除了 Google Drive 本身，你购买的储存空间还可以用于 Google Photos 的照片备份和 Gmail 的邮件备份。</p><p>另外，Google 即将推出的 Google One 服务也可以让 Google Drive 用户免费升级，到时候你购买的储存空间可以最多共享给 5 个家庭成员使用。</p><p><img src="https://cdn.sspai.com/2018/08/24/5799d604eca8fa269aca6a55d8f6d4cd.png?imageView2" alt="img"></p><h2 id="笔记类"><a href="#笔记类" class="headerlink" title="笔记类"></a>笔记类</h2><h3 id="Bear"><a href="#Bear" class="headerlink" title="Bear"></a>Bear</h3><p>作为笔记应用中的后起之秀，Bear 已经凭借它的高颜值、丰富功能和易用性赢得了市场的认可，成为了很多人做笔记的不二之选。虽然在问世之初就广受好评，但是 Bear 在后续的更新中又陆续加入了代码高亮、更多的标签图标、笔记集合和更多的导出格式等功能，足以证明开发商对这款应用的投入程度。</p><p>Bear Pro 的价格为<strong>每月 10 元</strong>，包含了 iCloud 同步、主题解锁、文档导出三个功能。</p><p><img src="https://cdn.sspai.com/2018/08/28/51387583055410cb0afcc9aeea8df5f5.png?imageView2" alt="img"></p><h3 id="印象笔记"><a href="#印象笔记" class="headerlink" title="印象笔记"></a>印象笔记</h3><p>在印象笔记中国团队独立之后，印象笔记在 8 月 3 日的六周年会上发布了新版应用，推出了 Markdown、电脑端密码锁和 Widget 剪藏等国际版没有的功能，可以说越来越适合中国用户了。而印象笔记作为一款老牌的笔记工具，已经具有非常坚实的用户基础和浓厚的资源分享氛围了。</p><p><img src="https://cdn.sspai.com/2018/08/28/c0a7e43c7a9f3f8f4332672ea2a5a212.png?imageView2" alt="img"></p><h2 id="生活类"><a href="#生活类" class="headerlink" title="生活类"></a>生活类</h2><h3 id="饿了么"><a href="#饿了么" class="headerlink" title="饿了么"></a>饿了么</h3><p>如果你经常通过叫外卖来解决一日三餐，那么不妨试一试饿了么的超级会员，绝对是物超所值。超级会员的订阅价格为 <strong>10 元/月</strong>，订阅后每个月会送你 20 个奖励金，可以兑换成总价值 20 元的红包，在你每次点餐的时候都可以使用，光是这一点你就把 10 元的订阅费用赚回来了。另外，超级会员每完成一笔大于 20 元的订单，即可再获得 1 个奖励金。除了这些看得见的优惠，超级会员还享有专属客服和专属活动等特权。</p><p>如果你还是星巴克的忠实消费者，那么选择饿了么更加没错了，因为星巴克已经宣布和饿了么合作推出外送服务，以后再也不用花钱让人代跑腿了。</p><p><img src="https://cdn.sspai.com/2018/08/27/d8c5baf9929dd7bc9ef7d05243c647fe.png?imageView2" alt="img"></p><h3 id="MoneyWiz-3"><a href="#MoneyWiz-3" class="headerlink" title="MoneyWiz 3"></a>MoneyWiz 3</h3><p>记账对我们生活的重要性在少数派上已经讨论过很多次了，知乎 Live 《<a href="https://www.zhihu.com/lives/870369268372471808" target="_blank" rel="noopener">面对不同情境，如何用对的 App 记好账</a>》中作者最推崇的记账应用就是 MoneyWiz。</p><p>随着 3.0 版本的到来，MoneyWiz 目前只提供了订阅制一种付费方式，<strong>每月 2.99 美元（接近 20 元人民币）</strong>，与免费版相比最大的不同是提供了跨平台数据同步功能和网银同步功能，对于要在多个平台上使用 MoneyWiz 3 的朋友来说订阅是唯一的方式。</p><p><img src="https://cdn.sspai.com/2018/08/27/df7b13a4286d40a93192828ad6b20e25.png?imageView2" alt="img"></p><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>受限于文章开头提到的几个限制，文中给出的价格皆为月付的价格，所以如果你在使用后满意的话，可以改用年付或者组团的方式，可以获得更加优惠的价格。另外，还有很多年付或者连续包月优惠的订阅服务，费用平均到每个月后也是一个很实惠的价格，包括 NOMO、Todoist、Ulysses 等。</p><p>本文中推荐的十个订阅服务不一定是最好的或者适合你的，只是希望能为大家提供一个参考。如果你体验过更加「物美价廉」的订阅服务，也欢迎你在评论区里与大家分享。</p><p>原文：<a href="https://sspai.com/post/46882" target="_blank" rel="noopener">https://sspai.com/post/46882</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;自从苹果在 2016 年调整了订阅模式下的开发者分成比例，越来越多的开发者尝试将自己的产品更改成了付费订阅制。&lt;/p&gt;&lt;p&gt;不过今天，让我们抛开订阅制本身的孰是孰非，来看一下有哪些订阅服务是「物美价廉」的。为了筛选出这十个订阅服务，我为它们制定了三个标准：&lt;/p&gt;&lt;ol&gt;&lt;li&gt;订阅费用可以选择按月支付；&lt;/li&gt;&lt;li&gt;每月订阅费用不高于 20 元；&lt;/li&gt;&lt;li&gt;个人订阅，而非家庭、团队或者企业版本。&lt;/li&gt;&lt;/ol&gt;
-    
-    </summary>
-    
-    
-      <category term="Kindle" scheme="http://jiangxin.info/tags/Kindle/"/>
-    
-      <category term="Apple Music" scheme="http://jiangxin.info/tags/Apple-Music/"/>
-    
-      <category term="QQ" scheme="http://jiangxin.info/tags/QQ/"/>
-    
-      <category term="音乐" scheme="http://jiangxin.info/tags/%E9%9F%B3%E4%B9%90/"/>
-    
-      <category term="视频" scheme="http://jiangxin.info/tags/%E8%A7%86%E9%A2%91/"/>
-    
-      <category term="iCloud" scheme="http://jiangxin.info/tags/iCloud/"/>
-    
-      <category term="云盘" scheme="http://jiangxin.info/tags/%E4%BA%91%E7%9B%98/"/>
-    
-      <category term="Bear" scheme="http://jiangxin.info/tags/Bear/"/>
-    
-      <category term="饿了么" scheme="http://jiangxin.info/tags/%E9%A5%BF%E4%BA%86%E4%B9%88/"/>
     
   </entry>
   
