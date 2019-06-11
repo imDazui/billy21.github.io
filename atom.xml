@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jiangxin.info/"/>
-  <updated>2019-05-31T06:20:43.644Z</updated>
+  <updated>2019-06-11T01:56:20.715Z</updated>
   <id>http://jiangxin.info/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SD-WAN 与 VPN 有什么不同？</title>
+    <link href="http://jiangxin.info/0605/SD-WAN-vs-VPN/"/>
+    <id>http://jiangxin.info/0605/SD-WAN-vs-VPN/</id>
+    <published>2019-06-05T04:21:00.000Z</published>
+    <updated>2019-06-11T01:56:20.715Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://i.loli.net/2019/06/11/5cff0912e5f8d56618.jpg" alt="SD-WAN vs VPN"></p><p>当谈到比较 SD-WAN 与 VPN 服务，企业在技术之间进行选择时应该考虑成本、云使用和应用程序等因素。</p><a id="more"></a><p>由于软件定义的广域网有时被吹捧为互联网上虚拟专用网的升级版本，许多IT团队想知道选择 SD-WAN 与 VPN 服务的根本区别和相似之处。</p><p>虽然 SD-WAN 平台的首选连接选项实际上是基于 Internet ——或者公开 IP ——但具体来说，该技术是与连接无关的。SD-WAN 营销团队可能希望用户相信互联网连接是 SD-WAN 的主要选择，但基于软件的网络最初的概念是——现在仍然是——支持多个接口。</p><p>考虑到为公司未来的选择，企业IT团队想通过比较 SD-WAN 和 VPN 的好处来打破对 SD-WAN 的误解。</p><h2 id="看一下-VPN"><a href="#看一下-VPN" class="headerlink" title="看一下 VPN"></a>看一下 VPN</h2><p>几十年来，IPsec VPN 的基本任务一直是删除来自已验证端点的数据包。端点之间的所有通信都会进行最高级别的加密，这构成了 Internet 上 VPN 的基础。VPN 可以说是简单且具有成本效益的，但在保证网络性能方面可能有问题。</p><p><img src="https://i.loli.net/2019/06/11/5cff0912c338455731.png" alt="VPN"></p><p>最基本的，VPN 可以在对应用程序和通信进行加密之前对它们进行优先级排序。但是，这样做的价值是有限的，因为一旦通信在加密通道中传输，就不能从网络提供商的角度对其进行优先级排序，因为消息头是加密的，不能查看。其次是一个在合理的性能水平上，建立一个支持通信的最佳网络。</p><p>一个典型的 vpn 在单个 ip 主干上运行一些操作，对于小型企业来说是合适的。然而，对于具有多个位置的大型企业，由于网络上的高延迟或拥塞，IPsec VPN常 常会导致语音和视频应用程序出现问题。</p><p>尽管广域网可以作为这些大型网络的救星，但企业仍然面临端对端通信问题，特别是在国际间的通信。那么，为什么一个企业会选择 IPsec VPN 而不是 SD-WAN 呢？</p><p>从本质上讲，比较 SD-WAN 与 VPN 的企业应该根据商业流程、应用程序和策略的合理结合来作出决定。基本来说，他们应考虑下列问题：</p><ul><li>您的业务是否需要保证应用程序的性能，或者说各方面都要达到最佳的效果？</li><li>您的企业使用云并支持远程的、不安全的网络吗？</li><li>您的企业是否想管理自己的广域网？</li></ul><p>对于希望实现具有成本效益、性能最佳的 VPN 服务的企业，使用传统的 VPN 设备和简化的功能集，简单的路由器或具有 IPsec 功能的客户机是可以接受的。部署这样一个服务的成本通常是最低的。有些公司使用宽带部署 VPN 服务，每月的费用不到 100 美元。</p><h2 id="当谈到-SD-WAN"><a href="#当谈到-SD-WAN" class="headerlink" title="当谈到 SD-WAN"></a>当谈到 SD-WAN</h2><p>一旦企业采用并依赖云服务，或者需要应用程序感知、远程访问和细粒度安全，SD-WAN 技术就开始有意义了。虽然 SD-WAN 不像第三层 MPLS VPN 那样具有端到端服务质量（QoS），但SD-WAN 通过提供感知网络条件和本地优先应用的能力来应对挑战。SD-WAN 的本地 qos 比基本的 Internet vpn 服务要先进得多，因为它提供了细粒度的支持，以及缓存或应用程序加速等技术。</p><p>当组织需要云服务时，它们应该考虑安全性和应用程序感知。SD-WAN 设备和客户机通常在与当前工作环境（如在家、咖啡店或酒店）保持一致时，在功能集方面会显得更健壮。随着 SD-WAN 的加强控制，IT 团队或提供商可以根据用户概要和流量类型来控制流量，保护通信。</p><p><img src="https://i.loli.net/2019/06/11/5cff0912eb29065748.jpg" alt="SD-WAN"></p><p>在许多情况下，简化的自我管理和易于使用的 GUI 正在推动 SD-WAN 的采用。传统的思科 IOS VPN 配置需要专业技术和认证，而 SD-WAN 配置则是基于点击式的。</p><p>SD-WAN 的承诺是支持任何类型的网络连接，从 MPLS 到虚拟私有 LAN 服务（VPLS），当然还有 Internet VPN。目前，用 SD-WAN 部署简单的 IPsec 设备来创建标准 VPN 连接的成本仍然较低。</p><p>SD-WAN 最初的承诺将在每台设备或客户机只需要一个快速通道就能通向集中管理服务器的愿景开始成为现实。换句话说，企业可以选择最基本的 SD-WAN 服务或更复杂的元素——这取决于它们的总体需要或分支站点的需求——基本上使用云网络功能虚拟化能力。</p><h2 id="SD-WAN-和-VPN-如何选择"><a href="#SD-WAN-和-VPN-如何选择" class="headerlink" title="SD-WAN 和 VPN 如何选择"></a>SD-WAN 和 VPN 如何选择</h2><p>虽然很难预测未来，但毫无疑问，企业将寻找相对低成本的最佳网络性能、安全性和灵活性。</p><p>SD-WAN 的目标是利用业务元素并将它们映射到业务支持中。有了 SD-WAN，网络变得更加细粒度，安全性更高。与标准的 Internet VPN 不同，SD-WAN 可以感知网络条件，以确保可预测的性能水平，而不管客户机在哪里连接。</p><p>比较 SD-WAN 与 Internet 上的 VPN，SD-WAN 要全面得多。SD-WAN 技术有可能支持基本的 Internet VPN 并结束全局 MPLS 和 VPLS 网络。</p><p>随着 IT 团队的前进，技术加速发展和产品特性继续多元化，这种趋势将最终导致简单的 VPNs 成为过去。企业需要使用一种更集中的方法来保护和处理应用程序通信，避免黑客威胁或糟糕的业务性能——所有这些都会影响到业务的实现。</p><p>原文链接；<br>[<a href="https://searchsdn.techtarget.com/tip/SD-WAN-vs-VPN-How-do-they-compare]" target="_blank" rel="noopener">https://searchsdn.techtarget.com/tip/SD-WAN-vs-VPN-How-do-they-compare]</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/06/11/5cff0912e5f8d56618.jpg&quot; alt=&quot;SD-WAN vs VPN&quot;&gt;&lt;/p&gt;&lt;p&gt;当谈到比较 SD-WAN 与 VPN 服务，企业在技术之间进行选择时应该考虑成本、云使用和应用程序等因素。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="SD-WAN" scheme="http://jiangxin.info/tags/SD-WAN/"/>
+    
+      <category term="VPN" scheme="http://jiangxin.info/tags/VPN/"/>
+    
+  </entry>
   
   <entry>
     <title>支持 种子/磁力链接 的播放器 Windows/Mac</title>
@@ -545,32 +567,6 @@
     
     
       <category term="DNS" scheme="http://jiangxin.info/tags/DNS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>iTerm2 + zsh + oh-my-zsh macOS上最强大的终端功能</title>
-    <link href="http://jiangxin.info/0829/iterm2-zsh-onmyzsh/"/>
-    <id>http://jiangxin.info/0829/iterm2-zsh-onmyzsh/</id>
-    <published>2018-08-29T07:55:50.000Z</published>
-    <updated>2018-08-30T10:38:43.975Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/MartinSeeler/iterm2-material-design/master/img/screen-mock-2.jpg" alt="iTerm2 + zsh + oh-my-zsh"></p><p>你在默认终端纠结吗？希望你的终端看起来像这样吗？默认终端很糟糕？</p><p>如果你想让你的终端看起来像上图。来吧，这篇会适合你。</p><a id="more"></a><h2 id="安装Homebrew"><a href="#安装Homebrew" class="headerlink" title="安装Homebrew"></a>安装Homebrew</h2><p><img src="https://www.iterm2.com/img/logo2x.jpg" alt="iTerm2"></p><p>打开终端并粘贴。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</span><br></pre></td></tr></table></figure><h2 id="下载iTerm2"><a href="#下载iTerm2" class="headerlink" title="下载iTerm2"></a>下载iTerm2</h2><p><a href="https://www.iterm2.com/features.html" target="_blank" rel="noopener">为什么我们必须将默认的macOS终端替换为iTerm2？</a></p><ol><li>转到下载页面<a href="https://www.iterm2.com/downloads.html" target="_blank" rel="noopener">https://www.iterm2.com/downloads.html</a></li><li>下载后，将文件拖放到我们的Application文件夹。</li></ol><h2 id="安装zsh"><a href="#安装zsh" class="headerlink" title="安装zsh"></a>安装zsh</h2><p>打开终端并粘贴。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install zsh</span><br></pre></td></tr></table></figure><h2 id="我们需要“oh-my-zsh”"><a href="#我们需要“oh-my-zsh”" class="headerlink" title="我们需要“oh-my-zsh”"></a>我们需要“oh-my-zsh”</h2><p><img src="https://cdn-images-1.medium.com/max/1600/1*ZxpV2BCT6h9dh0pybv4dXw.png" alt="img"></p><blockquote><p>Oh-My-Zsh is an open source, community-driven framework for managing your ZSH configuration. It comes bundled with a ton of helpful functions, helpers, plugins, themes, and a few things that make you shout…</p><p>–“Oh My ZSH!”</p></blockquote><h2 id="安装oh-my-zsh"><a href="#安装oh-my-zsh" class="headerlink" title="安装oh-my-zsh"></a>安装oh-my-zsh</h2><p>安装时，oh-my-zsh将自动用zsh替换默认终端。</p><p>打开终端并粘贴。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;</span><br></pre></td></tr></table></figure><h2 id="使用颜色装饰-iTerm2"><a href="#使用颜色装饰-iTerm2" class="headerlink" title="使用颜色装饰 iTerm2"></a>使用颜色装饰 iTerm2</h2><p><img src="https://github.com/MartinSeeler/iterm2-material-design/blob/master/img/screen-mock-1.jpg?raw=true" alt="img"></p><ol><li>打开终端并粘贴</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd Downloads</span><br><span class="line">$ curl -O https://raw.githubusercontent.com/MartinSeeler/iterm2-material-design/master/material-design-colors.itermcolors</span><br></pre></td></tr></table></figure><ol><li><p>打开已在第一部分下载的 iTerm2</p></li><li><p>转到 <em>iTerm2 &gt; Preferences &gt; Profiles &gt; Colors</em></p></li><li><p>单击右下角的 <em>Color Presets…</em></p></li><li><p>单击 <em>Import…</em></p></li><li><p>选择 <code>material-design-colors.itermcolors</code> 文件</p></li><li><p>在 <em>Load Presets…</em> 选择 <em>material-design-colors</em></p></li></ol><h2 id="管理插件"><a href="#管理插件" class="headerlink" title="管理插件"></a>管理插件</h2><p>插件维基页面：<a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins" target="_blank" rel="noopener">https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins</a></p><p>在这种情况下，我想在我的zsh上启用插件’docker’，所以我将运行此命令</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi~ / .zshrc</span><br></pre></td></tr></table></figure><p>并键入“/ plugin”（不带引号）按Enter键，键入“i”字符并插入要添加的插件。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">.</span><br><span class="line">.</span><br><span class="line"># Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)</span><br><span class="line"># Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/</span><br><span class="line"># Example format: plugins=(rails git textmate ruby lighthouse)</span><br><span class="line"># Add wisely, as too many plugins slow down shell startup.</span><br><span class="line">plugins=(</span><br><span class="line">  git</span><br><span class="line">)</span><br></pre></td></tr></table></figure><p>在这种情况下，我将添加docker插件，只需在我们的括号中添加“docker”。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">.</span><br><span class="line">.</span><br><span class="line"># Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)</span><br><span class="line"># Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/</span><br><span class="line"># Example format: plugins=(rails git textmate ruby lighthouse)</span><br><span class="line"># Add wisely, as too many plugins slow down shell startup.</span><br><span class="line">plugins=(</span><br><span class="line">  git</span><br><span class="line">  docker</span><br><span class="line">)</span><br></pre></td></tr></table></figure><p>在您满意后，按<code>Esc</code>并键入<code>：wq</code>，这意味着您保存文件并立即退出。<strong>并重启iTerm2。</strong></p><h2 id="添加别名（永久别名）"><a href="#添加别名（永久别名）" class="headerlink" title="添加别名（永久别名）"></a>添加别名（永久别名）</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">vi ~/.zshrc</span><br><span class="line">.</span><br><span class="line">.</span><br><span class="line">.</span><br><span class="line"># Example aliases</span><br><span class="line"># alias zshconfig=&quot;mate ~/.zshrc&quot;</span><br><span class="line"># alias ohmyzsh=&quot;mate ~/.oh-my-zsh&quot;</span><br><span class="line">alias dkps=&quot;docker ps&quot;</span><br><span class="line">alias dkst=&quot;docker stats&quot;</span><br><span class="line">alias dkpsa=&quot;docker ps -a&quot;</span><br><span class="line">alias dkimgs=&quot;docker images&quot;</span><br><span class="line">alias dkcpup=&quot;docker-compose up -d&quot;</span><br><span class="line">alias dkcpdown=&quot;docker-compose down&quot;</span><br><span class="line">alias dkcpstart=&quot;docker-compose start&quot;</span><br><span class="line">alias dkcpstop=&quot;docker-compose stop&quot;</span><br></pre></td></tr></table></figure><p>如果我输入 <code>dkps</code> ，它将执行 <code>docker ps</code></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/MartinSeeler/iterm2-material-design/master/img/screen-mock-2.jpg&quot; alt=&quot;iTerm2 + zsh + oh-my-zsh&quot;&gt;&lt;/p&gt;&lt;p&gt;你在默认终端纠结吗？希望你的终端看起来像这样吗？默认终端很糟糕？&lt;/p&gt;&lt;p&gt;如果你想让你的终端看起来像上图。来吧，这篇会适合你。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="macOS" scheme="http://jiangxin.info/tags/macOS/"/>
-    
-      <category term="iTerm2" scheme="http://jiangxin.info/tags/iTerm2/"/>
-    
-      <category term="zsh" scheme="http://jiangxin.info/tags/zsh/"/>
-    
-      <category term="oh-my-zsh" scheme="http://jiangxin.info/tags/oh-my-zsh/"/>
     
   </entry>
   
