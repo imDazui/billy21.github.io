@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://jiangxin.info/0829/iterm2-zsh-onmyzsh/</loc>
+    <lastmod>2019-12-07</lastmod>
+  </url>  <url>
+    <loc>http://jiangxin.info/0807/high-quality-proxy/</loc>
+    <lastmod>2019-12-07</lastmod>
+  </url>  <url>
+    <loc>http://jiangxin.info/0123/2018-nba-all-star/</loc>
+    <lastmod>2019-12-07</lastmod>
+  </url>  <url>
+    <loc>http://jiangxin.info/0901/fifa-201718/</loc>
+    <lastmod>2019-12-07</lastmod>
+  </url>  <url>
     <loc>http://jiangxin.info/0623/ar-vr-game/</loc>
     <lastmod>2019-12-07</lastmod>
   </url>  <url>
@@ -100,13 +112,7 @@
     <loc>http://jiangxin.info/0901/public-dns/</loc>
     <lastmod>2018-09-03</lastmod>
   </url>  <url>
-    <loc>http://jiangxin.info/0829/iterm2-zsh-onmyzsh/</loc>
-    <lastmod>2018-08-30</lastmod>
-  </url>  <url>
     <loc>http://jiangxin.info/0303/hello-world/</loc>
-    <lastmod>2018-08-29</lastmod>
-  </url>  <url>
-    <loc>http://jiangxin.info/0901/fifa-201718/</loc>
     <lastmod>2018-08-29</lastmod>
   </url>  <url>
     <loc>http://jiangxin.info/0828/google-pay/</loc>
@@ -126,11 +132,5 @@
   </url>  <url>
     <loc>http://jiangxin.info/0807/divineengine-profiles/</loc>
     <lastmod>2018-08-07</lastmod>
-  </url>  <url>
-    <loc>http://jiangxin.info/0807/high-quality-proxy/</loc>
-    <lastmod>2018-08-07</lastmod>
-  </url>  <url>
-    <loc>http://jiangxin.info/0123/2018-nba-all-star/</loc>
-    <lastmod>2018-08-06</lastmod>
   </url>
 </urlset>
