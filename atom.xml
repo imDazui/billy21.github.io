@@ -165,13 +165,13 @@
       <category term="Tools" scheme="http://jiangxin.info/categories/Tools/"/>
     
     
+      <category term="Windows" scheme="http://jiangxin.info/tags/Windows/"/>
+    
       <category term="Soda Player" scheme="http://jiangxin.info/tags/Soda-Player/"/>
     
       <category term="磁力链接" scheme="http://jiangxin.info/tags/%E7%A3%81%E5%8A%9B%E9%93%BE%E6%8E%A5/"/>
     
       <category term="种子" scheme="http://jiangxin.info/tags/%E7%A7%8D%E5%AD%90/"/>
-    
-      <category term="Windows" scheme="http://jiangxin.info/tags/Windows/"/>
     
       <category term="Mac" scheme="http://jiangxin.info/tags/Mac/"/>
     
@@ -319,8 +319,6 @@
     
       <category term="Shadowrocket" scheme="http://jiangxin.info/tags/Shadowrocket/"/>
     
-      <category term="Windows" scheme="http://jiangxin.info/tags/Windows/"/>
-    
       <category term="Potatso" scheme="http://jiangxin.info/tags/Potatso/"/>
     
       <category term="V2Ray" scheme="http://jiangxin.info/tags/V2Ray/"/>
@@ -336,6 +334,8 @@
       <category term="Clash" scheme="http://jiangxin.info/tags/Clash/"/>
     
       <category term="macOS" scheme="http://jiangxin.info/tags/macOS/"/>
+    
+      <category term="Windows" scheme="http://jiangxin.info/tags/Windows/"/>
     
       <category term="iOS" scheme="http://jiangxin.info/tags/iOS/"/>
     
