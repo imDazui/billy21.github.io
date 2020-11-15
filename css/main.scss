@@ -414,7 +414,10 @@ figure figcaption {
     }
     .behind {
         padding: 12px 0;
+    }
+    .behind .description {
         opacity: 0;
+        display: none;
     }
     .archive-title {
         font-size: $big;
