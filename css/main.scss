@@ -375,6 +375,17 @@ hr + .echo {
     }
 }
 
+figure {
+    margin-block-start:0;
+    margin-block-end:0;
+}
+figure figcaption {
+    font-size: small;
+    color: #acacab;
+    transition: color .3s;
+    text-align: center;
+}
+
 @media screen and (max-width:782px) {
     .main-ctnr {
         left: 0;
