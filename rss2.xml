@@ -9,8 +9,31 @@
     <atom:link href="http://jiangxin.info/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>不乱于心，不困于情。不畏将来，不念过往。如此，安好。</description>
-    <pubDate>Mon, 08 Jun 2020 03:04:21 GMT</pubDate>
+    <pubDate>Sun, 15 Nov 2020 04:57:54 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Unpublished</title>
+      <link>http://jiangxin.info/1010/unpublished/</link>
+      <guid>http://jiangxin.info/1010/unpublished/</guid>
+      <pubDate>Sat, 10 Oct 2020 08:23:08 GMT</pubDate>
+      
+        
+        
+      <description>
+</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[]]></content:encoded>
+      
+      
+      
+      
+      <comments>http://jiangxin.info/1010/unpublished/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>通过url开启Netflix隐藏分类：漫威、成人、黑帮、迪士尼、同志片等各类型</title>
@@ -704,32 +727,6 @@
       
       
       <comments>http://jiangxin.info/1119/Pocket-Casts-7/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>如何体验 Apple News？</title>
-      <link>http://jiangxin.info/1104/Apple-News/</link>
-      <guid>http://jiangxin.info/1104/Apple-News/</guid>
-      <pubDate>Sun, 04 Nov 2018 02:04:50 GMT</pubDate>
-      
-      <description>&lt;figure&gt;
-&lt;img src=&quot;https://i.loli.net/2019/04/23/5cbeceb87a9f7.jpg&quot; alt=&quot;Apple News&quot; /&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;Apple News&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;Apple News 是苹果在 iOS 和 macOS （10.14及之后的版本）设备上自带的新闻软件。目前仅在美国、英国和澳大利亚运营。它不生产内容，只搭建平台，方便各大媒体和内容创作者在上面提供内容。可以将其理解为更加开放些的微信公众平台或者今日头条。但是就目前来看，美区基本都是传统媒体和影响力较大的媒体接入。Apple News 的优势在于因为内容发布在同一平台，内容格式相对一致，用户体验极好。&lt;/p&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<figure><img src="https://i.loli.net/2019/04/23/5cbeceb87a9f7.jpg" alt="Apple News" /><figcaption aria-hidden="true">Apple News</figcaption></figure><p>Apple News 是苹果在 iOS 和 macOS （10.14及之后的版本）设备上自带的新闻软件。目前仅在美国、英国和澳大利亚运营。它不生产内容，只搭建平台，方便各大媒体和内容创作者在上面提供内容。可以将其理解为更加开放些的微信公众平台或者今日头条。但是就目前来看，美区基本都是传统媒体和影响力较大的媒体接入。Apple News 的优势在于因为内容发布在同一平台，内容格式相对一致，用户体验极好。</p><a id="more"></a><p><img src="https://i.loli.net/2019/04/23/5cbecebae48db.png" alt="Apple-News-Screenshots" />￼</p><p>上图是 Apple News iPhone版本的展示。 只有三栏, Today 一栏，混合了头条新闻，热门，个性化推荐，视频专区等等。也即是<strong>智能推荐</strong>和<strong>热门内容</strong>的合集 第二栏 Spotlight 是<strong>编辑推荐</strong>的内容，人工推荐在聚合类新闻软件中并不多见，典型的苹果作风。 第三栏 Browse 是<strong>个人关注</strong>，可以是各大内容提供方，也可以是某个话题。</p><h2 id="破解原理">破解原理</h2><p>Apple News 虽然在很多国家地区未提供服务，但设备上若使用美区 Apple ID 登陆，或者设置中地区更改为美国，Apple News 依旧能使用。特殊的地方在于，Apple News 针对中国地区做了特殊的自我限制，iOS 设备会检测是不是在使用中国运营商 🤦‍♂️，这应该是已知的苹果对自己服务作出的最严格的地域限制。</p><p>在iOS 设备使用 Apple News，需要： 1. iTunes中使用美区Apple ID； 2. 设置中地区切换为美国； 3. IP 地址不是中国的； 4. 使用非中国运营商/开启飞行模式。</p><p>在 macOS 设备上使用 Apple News 需要： 1. 设置中地区切换为美国； 2. 网络 IP 地址是美国/英国/澳大利亚等运营区域。</p><p>如果你觉得麻烦，欢迎使用 <a href="https://itunes.apple.com/us/app/google-news/id459182288?mt=8">Google News</a> 或者 <a href="https://itunes.apple.com/us/app/feedly-smart-news-reader/id396069556?mt=8">Feedly</a>， 内容源没差，就是丑了点，又不是不能用 🌚。</p><h2 id="iphoneipad-设备上使用-apple-news">iPhone/iPad 设备上使用 Apple News</h2><h3 id="第一步在主屏上显示-apple-news">第一步：在主屏上显示 Apple News</h3><ul><li>iTunes &amp; App Store 账号更换为美区</li><li>设置- 通用- 语言/地区 中，切换地区为美国</li></ul><p>这里需要介绍一下 Apple ID，iOS 上登陆的 Apple ID (苹果账号) 一般用于两种服务。一是 iCloud 文件及系统安全，二是用于 iTunes &amp; App Store等购买服务。</p><p>在 iOS 的设置中 退出 iTunes &amp; App Store 的登陆，换成 美区 Apple ID，Apple News, Apple TV 等软件就会出现在设备上了。</p><h3 id="第二步正常使用-apple-news">第二步：正常使用 Apple News</h3><p>完成第一步，你在几乎所有国家都可以正常使用 Apple News 了。仅仅中国特殊，不但检测 IP地址，若发现 MCC (<a href="https://en.wikipedia.org/wiki/Mobile_country_code">移动设备国家代码</a>) 是中国，则提示无法在地区使用。</p><p>在 iPhone 上需开启飞行模式。打开 Wi-Fi，使用 VPN 或者<a href="https://shadowsocks.org/en/index.html">SS类软件</a>的全局代理。iOS 上，Apple News 对代理的 IP 没有特别限制，只要不是中国的 IP地址即可。<strong>但必须开启飞行模式这一点，等于屏蔽移动网络，代价很大且不具有普适性。</strong></p><p>若在没有插 SIM卡的 iPad 上，使用 VPN 或者SS类软件的全局代理即可。常在Wi-Fi网络下扔着的 iPad 更适合用来阅读新闻等。</p><h2 id="mac-设备上使用-apple-news">Mac 设备上使用 Apple News</h2><h3 id="第一步在主屏上显示-apple-news-1">第一步：在主屏上显示 Apple News</h3><p><img src="https://i.loli.net/2019/04/23/5cbeceb9e7cca.png" alt="google-news-screenshots02" />￼</p><p>macOS 需升级到10.14 macOS Mojave。MacOS 上仅需要在 系统设置-语言与地区 中将地区更改为 美国，Apple News 就会出现在应用页面。若仍未出现，可以在 应用程序 中查看到，按住拖到 dock 栏方便使用。</p><p><img src="https://i.loli.net/2019/04/23/5cbeceb9c7b42.png" alt="google-news-screenshots03" />￼</p><h3 id="第二步正常使用-apple-news-1">第二步：正常使用 Apple News</h3><p>点开 Apple News， 很可能会提示该地区不支持。使用 VPN 或者<a href="https://shadowsocks.org/en/index.html">SS类软件</a>的全局代理。更换代理后，双击dock 上的 Apple News 选择关闭，然后打开即可。若经常使用全局代理不方便，也可以考虑使用 Proxifier 针对电脑上的每个软件分别设置代理策略。</p><p>注意，与iOS不同，macOS 上对 IP 地址还是有要求的，若使用加拿大或者其他非 Apple News 运营地区的 IP地址，仍会显示为该地区不支持。</p><h2 id="不想那么折腾怎么办">不想那么折腾怎么办</h2><p>总结来看，iPhone 上使用的缺点是必须要禁用移动网络；iPad 使用的缺点是不方便到处携带；Mac 上配置成本也不低。Google News 在今年2018年迎来一次大改版，在使用和内容上，毫不逊色 Apple News，只是 <a href="https://itunes.apple.com/us/app/google-news/id459182288?mt=8">Google News</a> 会直接打开原网页链接，字体大小排版各具特色，没有 Apple News 统一发布看起来讨人喜欢。</p><h2 id="apple-news-与-google-news-对比">Apple news 与 Google News 对比</h2><p><img src="https://i.loli.net/2019/04/23/5cbeceb927e8a.png" alt="google-news-screenshots" />￼</p><table><thead><tr class="header"><th>App</th><th>Tab 1</th><th>Tab 2</th><th>Tab 3</th><th>Tab 4</th></tr></thead><tbody><tr class="odd"><td>Apple News</td><td>智能推荐+热门内容</td><td>编辑推荐</td><td>自选话题/内容提供方</td><td>无</td></tr><tr class="even"><td>Google News</td><td>智能推荐</td><td>热门内容</td><td>自选话题/内容提供方</td><td>浏览话题/内容提供方</td></tr></tbody></table><p>由上可见，Google News 没有人工的「编辑推荐」，Apple News 因为对内容提供方门槛较高，比Google News 的更少些，除此之外，在内容上没有差异。</p><h2 id="在-apple-news-google-news-上看什么">在 Apple News/ Google News 上看什么？</h2><p>这个展开讲内容就会超级多了。欢迎参考本博客的另外几篇文章，看欧美电视电影版图，虽然偏向于电视电影，但是也可以帮你更好了解各个媒体的立场。同时还有获取资讯的 APP 也有一些推荐。</p>]]></content:encoded>
-      
-      
-      
-      <category domain="http://jiangxin.info/tags/Apple-News/">Apple News</category>
-      
-      <category domain="http://jiangxin.info/tags/Google-News/">Google News</category>
-      
-      
-      <comments>http://jiangxin.info/1104/Apple-News/#disqus_thread</comments>
       
     </item>
     
