@@ -281,7 +281,7 @@ blockquote {
 table {
     width: 100%;
 }
-
+/*
 img,
 object,
 article.post iframe,
@@ -302,6 +302,21 @@ img {
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
+}
+*/
+
+img,
+object,
+article.post iframe,
+video {
+    position: relative;
+    max-width: 100vh;
+    max-height: 62vh;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
 }
 
 .busuanzi {
@@ -378,6 +393,8 @@ hr + .echo {
 figure {
     margin-block-start:0;
     margin-block-end:0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
 }
 figure figcaption {
     font-size: small;
