@@ -746,6 +746,20 @@
   </url>
   
   <url>
+    <loc>http://jiangxin.info/tags/Ingress/</loc>
+    <lastmod>2020-11-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jiangxin.info/tags/Pokemon-Go/</loc>
+    <lastmod>2020-11-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jiangxin.info/tags/Apple/</loc>
     <lastmod>2020-11-16</lastmod>
     <changefreq>daily</changefreq>
@@ -809,20 +823,6 @@
   </url>
   
   <url>
-    <loc>http://jiangxin.info/tags/Ingress/</loc>
-    <lastmod>2020-11-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jiangxin.info/tags/Pokemon-Go/</loc>
-    <lastmod>2020-11-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jiangxin.info/tags/Pepi/</loc>
     <lastmod>2020-11-16</lastmod>
     <changefreq>daily</changefreq>
@@ -851,13 +851,6 @@
   </url>
   
   <url>
-    <loc>http://jiangxin.info/tags/FIFA/</loc>
-    <lastmod>2020-11-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jiangxin.info/tags/Google/</loc>
     <lastmod>2020-11-16</lastmod>
     <changefreq>daily</changefreq>
@@ -866,6 +859,41 @@
   
   <url>
     <loc>http://jiangxin.info/tags/Pay/</loc>
+    <lastmod>2020-11-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jiangxin.info/tags/FIFA/</loc>
+    <lastmod>2020-11-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jiangxin.info/tags/%E9%9F%A9%E6%BC%AB/</loc>
+    <lastmod>2020-11-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jiangxin.info/tags/%E5%92%9A%E6%BC%AB/</loc>
+    <lastmod>2020-11-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jiangxin.info/tags/%E6%BC%AB%E7%94%BB%E6%8E%A8%E8%8D%90/</loc>
+    <lastmod>2020-11-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jiangxin.info/tags/%E7%9C%8B%E8%84%B8%E6%97%B6%E4%BB%A3/</loc>
     <lastmod>2020-11-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -922,34 +950,6 @@
   
   <url>
     <loc>http://jiangxin.info/tags/GPS/</loc>
-    <lastmod>2020-11-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jiangxin.info/tags/%E9%9F%A9%E6%BC%AB/</loc>
-    <lastmod>2020-11-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jiangxin.info/tags/%E5%92%9A%E6%BC%AB/</loc>
-    <lastmod>2020-11-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jiangxin.info/tags/%E6%BC%AB%E7%94%BB%E6%8E%A8%E8%8D%90/</loc>
-    <lastmod>2020-11-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jiangxin.info/tags/%E7%9C%8B%E8%84%B8%E6%97%B6%E4%BB%A3/</loc>
     <lastmod>2020-11-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1054,6 +1054,13 @@
   </url>
   
   <url>
+    <loc>http://jiangxin.info/tags/DNS/</loc>
+    <lastmod>2020-11-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jiangxin.info/tags/HTTPS/</loc>
     <lastmod>2020-11-16</lastmod>
     <changefreq>daily</changefreq>
@@ -1069,13 +1076,6 @@
   
   <url>
     <loc>http://jiangxin.info/tags/shadowsocks/</loc>
-    <lastmod>2020-11-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jiangxin.info/tags/DNS/</loc>
     <lastmod>2020-11-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1483,14 +1483,14 @@
   </url>
   
   <url>
-    <loc>http://jiangxin.info/categories/Life/</loc>
+    <loc>http://jiangxin.info/categories/Other/</loc>
     <lastmod>2020-11-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://jiangxin.info/categories/Other/</loc>
+    <loc>http://jiangxin.info/categories/Life/</loc>
     <lastmod>2020-11-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
