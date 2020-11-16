@@ -6192,14 +6192,14 @@
 ]]></content>
   </entry>
   <entry>
-    <title>友链</title>
-    <url>/links/index.html</url>
+    <title>标签</title>
+    <url>/tags/index.html</url>
     <content><![CDATA[
 ]]></content>
   </entry>
   <entry>
-    <title>标签</title>
-    <url>/tags/index.html</url>
+    <title>友链</title>
+    <url>/links/index.html</url>
     <content><![CDATA[
 ]]></content>
   </entry>
