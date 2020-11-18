@@ -397,7 +397,7 @@ hr + .echo {
     position: relative;
     font-size: 16px;
     letter-spacing: .6px;
-    background: darken(grayscale($background), 10%);
+    background: darken(grayscale($background), 3%);
     color: $lighter;
     padding: 1em;
     width: calc(100% + 2em);
